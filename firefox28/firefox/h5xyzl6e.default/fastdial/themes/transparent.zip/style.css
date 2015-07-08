@@ -1,0 +1,26 @@
+/**
+ * @title Transparent, telega
+ */
+
+.thumbnail {
+  border: 1px solid transparent;
+}
+
+div.thumbnail:hover, .hover {
+  margin: 0px;
+}
+
+.title {
+  background: transparent;
+  border-top: 1px solid transparent;
+  visibility: hidden;
+}
+
+div.thumbnail:hover .title, .hover .title {
+  background: transparent;
+  visibility: visible;
+}
+
+.title img {
+  display: none;
+}

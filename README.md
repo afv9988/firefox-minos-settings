@@ -44,6 +44,6 @@ Other plugins/settings may be added in the future.
 
 1. Create a backup `mv ~/.mozilla ~/.mozilla.backup`
 
-2. Put these files in place `mv firefox27 ~/.mozilla` or `mv firefox28 ~/.mozilla`
+2. Put the files in place `mv firefox27 ~/.mozilla` or `mv firefox28 ~/.mozilla`
 
 3. Replace the muser with yours `find ~/.mozilla/ -type f | xargs sed -i -e "s/muser/$(whoami)/g"`

@@ -1,0 +1,247 @@
+<html>
+<head>
+<title>All key bindings</title>
+<style type="text/css">
+a {
+text-decoration:none;
+}
+
+a:link,a:active {
+color:#900;
+text-decoration:underline;
+}
+
+a:visited {
+color:#193154;
+text-decoration:underline;
+}
+
+a:hover {
+color:#565656;
+text-decoration:underline;
+}
+
+body {
+background-color:#E6E6E6;
+color:#1D1D1D;
+font-size:100%;
+font-family:'Helvetica', 'Arial', sans-serif;
+text-align:center;
+margin:2em 15px 15px;
+padding:0;
+}
+
+div#container {
+background-color:#FBFBFB;
+max-width:900px;
+text-align:left;
+font-size:93%;
+border-color:#D4D4D4;
+border-style:solid;
+border-width:1px;
+margin:0 auto;
+padding:10px 20px;
+}
+
+h1 {
+font-size:175%;
+text-align:left;
+font-weight:400;
+margin:0;
+padding:10px 0;
+}
+
+h2 {
+font-size:140%;
+text-align:left;
+font-weight:400;
+color:#2E2E2E;
+border-bottom:1px solid #BBB;
+margin:10px 0;
+padding:5px 0;
+}
+
+h3 {
+font-size:130%;
+color:#344D5E;
+text-align:left;
+font-weight:400;
+padding-left:5px;
+border-bottom:1px dotted #344D5E;
+margin:4px 7px;
+}
+
+hr {
+height:1px;
+background-color:#BBB;
+border:none;
+}
+
+blockquote {
+border:1px solid #BBB;
+padding:1px;
+}
+
+p {
+text-indent:1em;
+text-align:left;
+margin:5px 10px;
+padding:2px 0;
+}
+
+ol {
+text-align:left;
+margin:15px;
+}
+
+li {
+margin:7px 0;
+}
+
+dl {
+margin:5px 15px;
+}
+
+pre {
+border:1px #BBB solid;
+padding: 4px;
+margin: 6px 3px;
+background-color: #f9eefa;
+}
+
+*.table-keybindings {
+text-align:left;
+font:100%/1.7em "trebuchet ms", "bitstream vera sans", verdana, helvetica, sans-serif;
+width:100%;
+border:1px #BBB solid;
+border-collapse:collapse;
+border-spacing:0;
+}
+
+*.table-keybindings th {
+border:1px #BBB solid;
+background:#F3F0FC;
+line-height:120%;
+border-width:0 0 1px 1px;
+padding:5px;
+}
+
+*.table-keybindings td {
+border:1px #BBB solid;
+border-width:0 0 1px 1px;
+padding:5px;
+}
+
+*.table-keybindings td:first-child {
+width:10em;
+}
+</style>
+</head>
+<body>
+<div id="container">
+<h1>All key bindings</h1><hr />
+<ul>
+<li><a href="#special">Special Keys</a></li>
+<li><a href="#parg">Prefix Argument Keys</a></li>
+<li><a href="#global">Global Bindings</a></li>
+<li><a href="#view">View mode Bindings</a></li>
+<li><a href="#edit">Edit mode Bindings</a></li>
+<li><a href="#caret">Caret mode Bindings</a></li>
+</ul>
+<h2 id='special'>Special Keys</h2>
+<table class='table-keybindings'>
+<tr><th>Role</th><th>Key</th><th>Description</th></tr>
+<tr><td>Quit key</td><td>undefined</td><td>Cancel current key input</td></tr>
+<tr><td>Help key</td><td>undefined</td><td>With some prefix key, display "beginning with ..." help</td></tr>
+<tr><td>Escape key</td><td>C-v</td><td>KeySnail will ignore the next key and pass it to Firefox directly</td></tr>
+<tr><td>Start key macro recording</td><td>undefined</td><td>Start key macro recording</td></tr>
+<tr><td>End key macro recording / Play key macro</td><td>undefined</td><td>Stop key macro recording or play recorded one if exists</td></tr>
+<tr><td>Suspension switch key</td><td>C-z</td><td>Switch suspension state of KeySnail</td></tr>
+</table>
+
+<h2 id='parg'>Prefix Argument Keys</h2>
+<p>Disabled. You can enable this function from the preference dialog.</p>
+
+<h2 id='global'>Global Bindings</h2>
+<table class='table-keybindings'>
+<tr><th>Key</th><th>Binding</th></tr>
+</table>
+
+<h2 id='view'>View mode Bindings</h2>
+<table class='table-keybindings'>
+<tr><th>Key</th><th>Binding</th></tr>
+<tr><td>j</td><td>Scroll line down</td></tr>
+<tr><td>k</td><td>Scroll line up</td></tr>
+<tr><td>h</td><td>Scroll left</td></tr>
+<tr><td>l</td><td>Scroll right</td></tr>
+<tr><td>C-u</td><td>Scroll page up</td></tr>
+<tr><td>C-b</td><td>Scroll page up</td></tr>
+<tr><td>C-d</td><td>Scroll page down</td></tr>
+<tr><td>g g</td><td>Scroll to the top of the page</td></tr>
+<tr><td>g t</td><td>Select next tab</td></tr>
+<tr><td>g T</td><td>Select previous tab</td></tr>
+<tr><td>g u</td><td>Go upper directory</td></tr>
+<tr><td>g U</td><td>Go to the root directory</td></tr>
+<tr><td>C-n</td><td>Select next tab</td></tr>
+<tr><td>C-p</td><td>Select previous tab</td></tr>
+<tr><td>G</td><td>Scroll to the bottom of the page</td></tr>
+<tr><td>:</td><td>List and execute commands</td></tr>
+<tr><td>r</td><td>Reload the page</td></tr>
+<tr><td>H</td><td>Back</td></tr>
+<tr><td>L</td><td>Forward</td></tr>
+<tr><td>f</td><td>Start foreground hint mode</td></tr>
+<tr><td>F</td><td>Start background hint mode</td></tr>
+<tr><td>;</td><td>Start extended hint mode</td></tr>
+<tr><td>d</td><td>Close tab / window</td></tr>
+<tr><td>u</td><td>Undo closed tab</td></tr>
+<tr><td>i</td><td>Toggle caret mode</td></tr>
+</table>
+
+<h2 id='edit'>Edit mode Bindings</h2>
+<table class='table-keybindings'>
+<tr><th>Key</th><th>Binding</th></tr>
+<tr><td>C-c e</td><td>Edit text</td></tr>
+<tr><td>C-h</td><td>Delete backward char</td></tr>
+</table>
+
+<h2 id='caret'>Caret mode Bindings</h2>
+<table class='table-keybindings'>
+<tr><th>Key</th><th>Binding</th></tr>
+<tr><td>^</td><td>Move caret to the beginning of the line</td></tr>
+<tr><td>$</td><td>Move caret to the end of the line</td></tr>
+<tr><td>G</td><td>Move caret to the end of the line</td></tr>
+<tr><td>j</td><td>Move caret to the next line</td></tr>
+<tr><td>k</td><td>Move caret to the previous line</td></tr>
+<tr><td>l</td><td>Move caret to the right</td></tr>
+<tr><td>C-h</td><td>Move caret to the left</td></tr>
+<tr><td>h</td><td>Move caret to the left</td></tr>
+<tr><td>w</td><td>Move caret to the right by word</td></tr>
+<tr><td>W</td><td>Move caret to the left by word</td></tr>
+<tr><td>SPC</td><td>Move caret down by page</td></tr>
+<tr><td>b</td><td>Move caret up by page</td></tr>
+<tr><td>g g</td><td>Move caret to the top of the page</td></tr>
+<tr><td>g t</td><td>Select next tab</td></tr>
+<tr><td>g T</td><td>Select previous tab</td></tr>
+<tr><td>g u</td><td>Go upper directory</td></tr>
+<tr><td>g U</td><td>Go to the root directory</td></tr>
+<tr><td>C-n</td><td>Select next tab</td></tr>
+<tr><td>C-p</td><td>Select previous tab</td></tr>
+<tr><td>C-d</td><td>Scroll line down</td></tr>
+<tr><td>C-u</td><td>Scroll line up</td></tr>
+<tr><td>,</td><td>Scroll left</td></tr>
+<tr><td>.</td><td>Scroll right</td></tr>
+<tr><td>:</td><td>List and execute commands</td></tr>
+<tr><td>r</td><td>Reload the page</td></tr>
+<tr><td>H</td><td>Back</td></tr>
+<tr><td>L</td><td>Forward</td></tr>
+<tr><td>f</td><td>Start foreground hint mode</td></tr>
+<tr><td>F</td><td>Start background hint mode</td></tr>
+<tr><td>;</td><td>Start extended hint mode</td></tr>
+<tr><td>d</td><td>Close tab / window</td></tr>
+<tr><td>u</td><td>Undo closed tab</td></tr>
+<tr><td>i</td><td>Toggle caret mode</td></tr>
+</table>
+
+</div>
+</body>
+</html>

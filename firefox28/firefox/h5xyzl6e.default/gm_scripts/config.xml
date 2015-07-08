@@ -1,0 +1,152 @@
+<UserScriptConfig>
+	<Script basedir="LP_Bingo-2" checkRemoteUpdates="1" dependhash="da39a3ee5e6b4b0d3255bfef95601890afd80709" description="(Launchpad) Play bug jam bingo!" enabled="true" filename="lp_bingo.user.js" installTime="1349929243142" modified="1436329720000" name="LP_Bingo" namespace="http://murraytwins.com/greasemonkey/" runAt="document-end" uuid="83af3650-9397-4700-b86a-30ddb20c0351" version="null" installurl="http://bazaar.launchpad.net/~gm-dev-launchpad/launchpad-gm-scripts/master/download/head:/lp_bingo.user.js-20080807194854-as61aivaqy0cbbuu-1/lp_bingo.user.js" updateurl="http://bazaar.launchpad.net/~gm-dev-launchpad/launchpad-gm-scripts/master/download/head:/lp_bingo.user.js-20080807194854-as61aivaqy0cbbuu-1/lp_bingo.user.js">
+		<Grant>GM_log</Grant>
+		<Include>https://launchpad.net/*</Include>
+		<Include>https://*.launchpad.net/*</Include>
+		<Include>https://*.edge.launchpad.net/*</Include>
+		<Include>https://launchpad.net/*</Include>
+	</Script>
+	<Script basedir="Launchpad_Bug_Search_improvements-2" checkRemoteUpdates="1" dependhash="da39a3ee5e6b4b0d3255bfef95601890afd80709" description="Launchpad Bug Search extra columns" enabled="true" filename="lp_bug_search.user.js" installTime="1349929243739" modified="1436329720000" name="Launchpad Bug Search improvements" namespace="https://launchpad.net/~javier.collado" runAt="document-end" uuid="0fe7223d-e354-4a35-b633-e56fc0969548" version="null" installurl="http://bazaar.launchpad.net/~gm-dev-launchpad/launchpad-gm-scripts/master/download/head:/lp_bug_search.user.j-20100218100155-ljvmsba54ke06aj1-1/lp_bug_search.user.js" updateurl="http://bazaar.launchpad.net/~gm-dev-launchpad/launchpad-gm-scripts/master/download/head:/lp_bug_search.user.j-20100218100155-ljvmsba54ke06aj1-1/lp_bug_search.user.js">
+		<Grant>GM_log</Grant>
+		<Include>https://bugs.launchpad.net/*</Include>
+		<Include>https://bugs.edge.launchpad.net/*</Include>
+		<Include>https://bugs.staging.launchpad.net/*</Include>
+	</Script>
+	<Script basedir="LP_BugSquadSignature-2" checkRemoteUpdates="1" dependhash="da39a3ee5e6b4b0d3255bfef95601890afd80709" description="(Launchpad) Fill comment fields with a signature" enabled="true" filename="lp_bugsquad_sig.user.js" installTime="1349929243580" modified="1436329720000" name="LP_BugSquadSignature" namespace="http://murraytwins.com/greasemonkey/" runAt="document-end" uuid="dc5e8e12-7bb1-4514-b5a0-82f1d4ebac77" version="null" installurl="http://bazaar.launchpad.net/~gm-dev-launchpad/launchpad-gm-scripts/master/download/head:/lp_bugsquad_sig.user-20110520214706-h7pye4wqd6uq1s5l-1/lp_bugsquad_sig.user.js" updateurl="http://bazaar.launchpad.net/~gm-dev-launchpad/launchpad-gm-scripts/master/download/head:/lp_bugsquad_sig.user-20110520214706-h7pye4wqd6uq1s5l-1/lp_bugsquad_sig.user.js">
+		<Exclude>https://bugs.launchpad.net/*/+filebug</Exclude>
+		<Grant>GM_log</Grant>
+		<Include>https://bugs.launchpad.net/*</Include>
+	</Script>
+	<Script basedir="LP_ButtonTags-2" checkRemoteUpdates="1" dependhash="da39a3ee5e6b4b0d3255bfef95601890afd80709" description="(Launchpad) Buttons for adding tags" enabled="true" filename="lp_buttontags.user.js" installTime="1349929243234" modified="1436329720000" name="LP_ButtonTags" namespace="http://bryceharrington.org/greasemonkey/" runAt="document-end" uuid="e7b6622a-0e9a-471c-9f1d-8c0ab3ba7219" version="null" installurl="http://bazaar.launchpad.net/~gm-dev-launchpad/launchpad-gm-scripts/master/download/head:/lp_buttontags.user.j-20080108024506-u79sww4f31nuls3f-1/lp_buttontags.user.js" updateurl="http://bazaar.launchpad.net/~gm-dev-launchpad/launchpad-gm-scripts/master/download/head:/lp_buttontags.user.j-20080108024506-u79sww4f31nuls3f-1/lp_buttontags.user.js">
+		<Grant>GM_getValue</Grant>
+		<Grant>GM_setValue</Grant>
+		<Grant>GM_xmlhttpRequest</Grant>
+		<Grant>unsafeWindow</Grant>
+		<Include>https://bugs.launchpad.net/*/+bug/*</Include>
+		<Include>https://bugs.staging.launchpad.net/*/+bug/*</Include>
+	</Script>
+	<Script basedir="LP_StockReplies_Chrome-2" checkRemoteUpdates="1" dependhash="da39a3ee5e6b4b0d3255bfef95601890afd80709" description="(Launchpad) Stock replies" enabled="true" filename="lp_chrome_stockreplies.user.js" installTime="1349929243498" modified="1436329720000" name="LP_StockReplies_Chrome" namespace="http://outflux.net/greasemonkey/" runAt="document-end" uuid="66424edc-8b20-4b90-901d-119794ba2da7" version="1.5" installurl="http://bazaar.launchpad.net/~gm-dev-launchpad/launchpad-gm-scripts/master/download/head:/lp_chrome_stockrepli-20100915181155-alac2mknjxh73q8m-1/lp_chrome_stockreplies.user.js" updateurl="http://bazaar.launchpad.net/~gm-dev-launchpad/launchpad-gm-scripts/master/download/head:/lp_chrome_stockrepli-20100915181155-alac2mknjxh73q8m-1/lp_chrome_stockreplies.user.js">
+		<Grant>GM_getValue</Grant>
+		<Grant>GM_setValue</Grant>
+		<Grant>GM_xmlhttpRequest</Grant>
+		<Include>https://launchpad.net/*</Include>
+		<Include>https://*.launchpad.net/*</Include>
+		<Include>https://*.edge.launchpad.net/*</Include>
+	</Script>
+	<Script basedir="LP_DisplayCountOfDupes-2" checkRemoteUpdates="1" dependhash="da39a3ee5e6b4b0d3255bfef95601890afd80709" description="(Launchpad) Display the quantity of duplicates" enabled="true" filename="lp_display_count_of_dupes.user.js" installTime="1349929244040" modified="1436329720000" name="LP_DisplayCountOfDupes" namespace="http://murraytwins.com/greasemonkey/" runAt="document-end" uuid="078e3d47-3f8c-4321-bc0f-cd6089b33b75" version="null" installurl="http://bazaar.launchpad.net/~gm-dev-launchpad/launchpad-gm-scripts/master/download/head:/lp_display_count_of_-20110328225008-xlditikh3ml04b2w-1/lp_display_count_of_dupes.user.js" updateurl="http://bazaar.launchpad.net/~gm-dev-launchpad/launchpad-gm-scripts/master/download/head:/lp_display_count_of_-20110328225008-xlditikh3ml04b2w-1/lp_display_count_of_dupes.user.js">
+		<Grant>GM_log</Grant>
+		<Include>https://bugs.launchpad.net/*/+bug/*</Include>
+		<Include>https://bugs.staging.launchpad.net/*/+bug/*</Include>
+	</Script>
+	<Script basedir="LP_DisplayLastUpdated-2" checkRemoteUpdates="1" dependhash="da39a3ee5e6b4b0d3255bfef95601890afd80709" description="(Launchpad) Display when the bug was last updated" enabled="true" filename="lp_display_last_update.user.js" installTime="1349929243266" modified="1436329720000" name="LP_DisplayLastUpdated" namespace="http://murraytwins.com/greasemonkey/" runAt="document-end" uuid="be36683b-c6af-42f6-88b1-42b212639638" version="null" installurl="http://bazaar.launchpad.net/~gm-dev-launchpad/launchpad-gm-scripts/master/download/head:/lp_display_last_upda-20110214224627-4wtnev8y72fnjb2f-1/lp_display_last_update.user.js" updateurl="http://bazaar.launchpad.net/~gm-dev-launchpad/launchpad-gm-scripts/master/download/head:/lp_display_last_upda-20110214224627-4wtnev8y72fnjb2f-1/lp_display_last_update.user.js">
+		<Grant>GM_log</Grant>
+		<Include>https://bugs.launchpad.net/*/+bug/*</Include>
+		<Include>https://bugs.staging.launchpad.net/*/+bug/*</Include>
+	</Script>
+	<Script basedir="LP_HideDeletedPpas-2" checkRemoteUpdates="1" dependhash="da39a3ee5e6b4b0d3255bfef95601890afd80709" description="(Launchpad) Don't display PPAs that have been deleted" enabled="true" filename="lp_hide_deleted_ppas.user.js" installTime="1349929243474" modified="1436329720000" name="LP_HideDeletedPpas" namespace="http://bryceharrington.org/greasemonkey/" runAt="document-end" uuid="ac520bad-c21d-4fc8-9282-27fc54ad8797" version="null" installurl="http://bazaar.launchpad.net/~gm-dev-launchpad/launchpad-gm-scripts/master/download/head:/lp_hide_deleted_ppas-20110909000428-x6hhk3ewycbfwm15-1/lp_hide_deleted_ppas.user.js" updateurl="http://bazaar.launchpad.net/~gm-dev-launchpad/launchpad-gm-scripts/master/download/head:/lp_hide_deleted_ppas-20110909000428-x6hhk3ewycbfwm15-1/lp_hide_deleted_ppas.user.js">
+		<Grant>GM_log</Grant>
+		<Include>https://launchpad.net/~*</Include>
+		<Include>https://edge.launchpad.net/*</Include>
+	</Script>
+	<Script basedir="LP_Highlight_Me-2" checkRemoteUpdates="1" dependhash="da39a3ee5e6b4b0d3255bfef95601890afd80709" description="Highlight the logged in user in various listings." enabled="true" filename="lp_highlight_me.user.js" installTime="1349929244096" modified="1436329720000" name="LP_Highlight_Me" namespace="https://launchpad.net/launchpad-gm-scripts" runAt="document-end" uuid="65f711a7-7e02-40db-8f37-6d078313156f" version="0.1.2" installurl="http://bazaar.launchpad.net/~gm-dev-launchpad/launchpad-gm-scripts/master/download/head:/lp_highlight_me.user-20080626165223-bid2bicyz4bf7z7w-1/lp_highlight_me.user.js" updateurl="http://bazaar.launchpad.net/~gm-dev-launchpad/launchpad-gm-scripts/master/download/head:/lp_highlight_me.user-20080626165223-bid2bicyz4bf7z7w-1/lp_highlight_me.user.js">
+		<Grant>GM_log</Grant>
+		<Include>https://launchpad.net/*/+milestone/*</Include>
+		<Include>https://*.launchpad.net/*/+milestone/*</Include>
+		<Include>https://*.edge.launchpad.net/*/+milestone/*</Include>
+	</Script>
+	<Script basedir="LP_WordHighlighter-2" checkRemoteUpdates="1" dependhash="da39a3ee5e6b4b0d3255bfef95601890afd80709" description="Highlight keywords in bug pages" enabled="true" filename="lp_highlight_words.user.js" installTime="1355028493011" modified="1436329720000" name="LP_WordHighlighter" namespace="http://murraytwins.com/greasemonkey/" runAt="document-end" uuid="fd9202c8-3040-4162-b0dd-0f5c25bef2aa" version="null" installurl="http://bazaar.launchpad.net/~gm-dev-launchpad/launchpad-gm-scripts/master/download/head:/lp_highlight_words.u-20100105230050-buvv080lkk98rxne-1/lp_highlight_words.user.js" updateurl="http://bazaar.launchpad.net/~gm-dev-launchpad/launchpad-gm-scripts/master/download/head:/lp_highlight_words.u-20100105230050-buvv080lkk98rxne-1/lp_highlight_words.user.js">
+		<Exclude>https://launchpad.net/*/+bug/*/+edit</Exclude>
+		<Exclude>https://launchpad.net/*/+bug/*/+nominate</Exclude>
+		<Exclude>https://*.launchpad.net/*/+bug/*/+edit</Exclude>
+		<Exclude>https://*.launchpad.net/*/+bug/*/+nominate</Exclude>
+		<Exclude>https://*.edge.launchpad.net/*/+bug/*/+edit</Exclude>
+		<Exclude>https://*.edge.launchpad.net/*/+bug/*/+nominate</Exclude>
+		<Grant>none</Grant>
+		<Include>https://launchpad.net/*/+bug/*</Include>
+		<Include>https://*.launchpad.net/*/+bug/*</Include>
+		<Include>https://*.edge.launchpad.net/*/+bug/*</Include>
+	</Script>
+	<Script basedir="LP_Karma_Suffix-2" checkRemoteUpdates="1" dependhash="da39a3ee5e6b4b0d3255bfef95601890afd80709" description="(Launchpad) Karma Suffixes" enabled="true" filename="lp_karma_suffix.user.js" installTime="1349929244419" modified="1436329720000" name="LP_Karma_Suffix" namespace="http://outflux.net/greasemonkey/" runAt="document-end" uuid="93ae84cc-f3c4-4bc8-89ed-e72aa3915451" version="1.2" installurl="http://bazaar.launchpad.net/~gm-dev-launchpad/launchpad-gm-scripts/master/download/head:/lp_karma_suffix.user-20071017221940-8981nskt9y0ecgvi-1/lp_karma_suffix.user.js" updateurl="http://bazaar.launchpad.net/~gm-dev-launchpad/launchpad-gm-scripts/master/download/head:/lp_karma_suffix.user-20071017221940-8981nskt9y0ecgvi-1/lp_karma_suffix.user.js">
+		<Grant>GM_log</Grant>
+		<Include>https://launchpad.net/*</Include>
+		<Include>https://*.launchpad.net/*</Include>
+		<Include>https://*.edge.launchpad.net/*</Include>
+	</Script>
+	<Script basedir="LP_MoreBugLinks-2" checkRemoteUpdates="1" dependhash="da39a3ee5e6b4b0d3255bfef95601890afd80709" description="(Launchpad) Add in more bug links" enabled="true" filename="lp_more_bug_links.user.js" installTime="1349929244553" modified="1436329720000" name="LP_MoreBugLinks" namespace="http://murraytwins.com/greasemonkey/" runAt="document-end" uuid="bc993b17-03f8-4177-bd46-18625bae7c1c" version="null" installurl="http://bazaar.launchpad.net/~gm-dev-launchpad/launchpad-gm-scripts/master/download/head:/lp_more_bug_links.us-20101030142324-g6ug408ys64tjp6b-1/lp_more_bug_links.user.js" updateurl="http://bazaar.launchpad.net/~gm-dev-launchpad/launchpad-gm-scripts/master/download/head:/lp_more_bug_links.us-20101030142324-g6ug408ys64tjp6b-1/lp_more_bug_links.user.js">
+		<Grant>GM_log</Grant>
+		<Include>https://launchpad.net/*/+bugs</Include>
+		<Include>https://*.launchpad.net/*/+bugs</Include>
+		<Include>https://launchpad.net/*/+bugs*</Include>
+		<Include>https://*.launchpad.net/*/+bugs*</Include>
+	</Script>
+	<Script basedir="LP_OopsToBug-2" checkRemoteUpdates="1" dependhash="da39a3ee5e6b4b0d3255bfef95601890afd80709" description="(Launchpad) When Launchpad breaks, link the OOPS to +filebug" enabled="true" filename="lp_oops_to_bug.user.js" installTime="1349929244394" modified="1436329720000" name="LP_OopsToBug" namespace="http://bryceharrington.org/greasemonkey/" runAt="document-end" uuid="1045a2e7-28ba-4f66-9c57-3ff44c8765c0" version="null" installurl="http://bazaar.launchpad.net/~gm-dev-launchpad/launchpad-gm-scripts/master/download/head:/lp_oops_to_bug.user.-20111005222521-bkd2f51460uzjjpq-1/lp_oops_to_bug.user.js" updateurl="http://bazaar.launchpad.net/~gm-dev-launchpad/launchpad-gm-scripts/master/download/head:/lp_oops_to_bug.user.-20111005222521-bkd2f51460uzjjpq-1/lp_oops_to_bug.user.js">
+		<Grant>none</Grant>
+		<Include>https://*launchpad.net/*</Include>
+	</Script>
+	<Script basedir="LP_DetailedDescription-2" checkRemoteUpdates="1" dependhash="da39a3ee5e6b4b0d3255bfef95601890afd80709" description="(Launchpad) Prefill bug description" enabled="true" filename="lp_prefilled_description.user.js" installTime="1355028722384" modified="1436329720000" name="LP_DetailedDescription" namespace="http://murraytwins.com/greasemonkey/" runAt="document-end" uuid="9c91cfd2-7517-422c-9aca-65a701116e3e" version="null" installurl="http://bazaar.launchpad.net/~gm-dev-launchpad/launchpad-gm-scripts/master/download/head:/lp_prefilled_descrip-20090211191856-rwp5f24e1z89gyjk-1/lp_prefilled_description.user.js" updateurl="http://bazaar.launchpad.net/~gm-dev-launchpad/launchpad-gm-scripts/master/download/head:/lp_prefilled_descrip-20090211191856-rwp5f24e1z89gyjk-1/lp_prefilled_description.user.js">
+		<Grant>none</Grant>
+		<Include>https://launchpad.net/*</Include>
+		<Include>https://*.launchpad.net/*</Include>
+		<Include>https://*.edge.launchpad.net/*</Include>
+	</Script>
+	<Script basedir="LP_QuestionComment-2" checkRemoteUpdates="1" dependhash="da39a3ee5e6b4b0d3255bfef95601890afd80709" description="(Launchpad) Prefill question comment" enabled="true" filename="lp_question_comment.user.js" installTime="1349929244816" modified="1436329720000" name="LP_QuestionComment" namespace="http://murraytwins.com/greasemonkey/" runAt="document-end" uuid="65e72b5c-6515-430d-bb24-c73052fd8fb0" version="null" installurl="http://bazaar.launchpad.net/~gm-dev-launchpad/launchpad-gm-scripts/master/download/head:/lp_question_comment.-20080818231134-q5vpqg5ljpgxm9zy-1/lp_question_comment.user.js" updateurl="http://bazaar.launchpad.net/~gm-dev-launchpad/launchpad-gm-scripts/master/download/head:/lp_question_comment.-20080818231134-q5vpqg5ljpgxm9zy-1/lp_question_comment.user.js">
+		<Grant>none</Grant>
+		<Include>https://launchpad.net/*</Include>
+		<Include>https://*.launchpad.net/*</Include>
+		<Include>https://*.edge.launchpad.net/*</Include>
+		<Include>https://launchpad.net/*</Include>
+	</Script>
+	<Script basedir="LP_Reporter_Comments-2" checkRemoteUpdates="1" dependhash="da39a3ee5e6b4b0d3255bfef95601890afd80709" description="(Launchpad) Identify comments from the reporter" enabled="true" filename="lp_reporter_comments.user.js" installTime="1349929244545" modified="1436329720000" name="LP_Reporter_Comments" namespace="http://murraytwins.com/greasemonkey/" runAt="document-end" uuid="607b14ac-ef7c-46cf-8cf8-b1b352cdc104" version="null" installurl="http://bazaar.launchpad.net/~gm-dev-launchpad/launchpad-gm-scripts/master/download/head:/lp_reporter_comments-20080825000845-4sdw9l0w00wseori-1/lp_reporter_comments.user.js" updateurl="http://bazaar.launchpad.net/~gm-dev-launchpad/launchpad-gm-scripts/master/download/head:/lp_reporter_comments-20080825000845-4sdw9l0w00wseori-1/lp_reporter_comments.user.js">
+		<Grant>GM_log</Grant>
+		<Include>https://launchpad.net/*</Include>
+		<Include>https://*.launchpad.net/*</Include>
+		<Include>https://*.edge.launchpad.net/*</Include>
+		<Include>https://launchpad.net/*</Include>
+	</Script>
+	<Script basedir="LP_ReturnOfTheMap-2" checkRemoteUpdates="1" dependhash="da39a3ee5e6b4b0d3255bfef95601890afd80709" description="(Launchpad) Display googlemap for users" enabled="true" filename="lp_return_of_the_map.user.js" installTime="1349929244746" modified="1436329720000" name="LP_ReturnOfTheMap" namespace="http://murraytwins.com/greasemonkey/" runAt="document-end" uuid="42c08c35-c251-472d-a29b-1bdd9990b679" version="null" installurl="http://bazaar.launchpad.net/~gm-dev-launchpad/launchpad-gm-scripts/master/download/head:/lp_return_of_the_map-20101219205130-aceifhefey6eqjjs-1/lp_return_of_the_map.user.js" updateurl="http://bazaar.launchpad.net/~gm-dev-launchpad/launchpad-gm-scripts/master/download/head:/lp_return_of_the_map-20101219205130-aceifhefey6eqjjs-1/lp_return_of_the_map.user.js">
+		<Grant>GM_log</Grant>
+		<Include>https://launchpad.net/~*</Include>
+		<Include>https://edge.launchpad.net/~*</Include>
+		<Include>https://staging.launchpad.net/~*</Include>
+	</Script>
+	<Script basedir="LP_SendtUpstream-2" checkRemoteUpdates="1" dependhash="da39a3ee5e6b4b0d3255bfef95601890afd80709" description="(Launchpad) Forwards a bug report to bugzilla" enabled="true" filename="lp_send_upstream.user.js" installTime="1349929244825" modified="1436329720000" name="LP_SendtUpstream" namespace="http://bryceharrington.org/greasemonkey/" runAt="document-end" uuid="b4b61675-bef5-47fa-9b2c-68b9f11e7d7b" version="null" installurl="http://bazaar.launchpad.net/~gm-dev-launchpad/launchpad-gm-scripts/master/download/head:/lp_send_upstream.use-20110921193716-2811ry465d642q6h-1/lp_send_upstream.user.js" updateurl="http://bazaar.launchpad.net/~gm-dev-launchpad/launchpad-gm-scripts/master/download/head:/lp_send_upstream.use-20110921193716-2811ry465d642q6h-1/lp_send_upstream.user.js">
+		<Grant>GM_log</Grant>
+		<Grant>GM_xmlhttpRequest</Grant>
+		<Include>https://bugs.launchpad.net/*</Include>
+		<Include>https://bugs.edge.launchpad.net/*</Include>
+		<Include>https://bugs.staging.launchpad.net/*</Include>
+	</Script>
+	<Script basedir="LP_StockReplies-2" checkRemoteUpdates="1" dependhash="da39a3ee5e6b4b0d3255bfef95601890afd80709" description="(Launchpad) Stock replies" enabled="true" filename="lp_stockreplies.user.js" installTime="1349929245471" modified="1436329720000" name="LP_StockReplies" namespace="http://outflux.net/greasemonkey/" runAt="document-end" uuid="b97c1b31-12e9-438b-8d2b-f397e551cc7c" version="1.5" installurl="http://bazaar.launchpad.net/~gm-dev-launchpad/launchpad-gm-scripts/master/download/head:/lp_stockreplies.user-20071017221940-8981nskt9y0ecgvi-2/lp_stockreplies.user.js" updateurl="http://bazaar.launchpad.net/~gm-dev-launchpad/launchpad-gm-scripts/master/download/head:/lp_stockreplies.user-20071017221940-8981nskt9y0ecgvi-2/lp_stockreplies.user.js">
+		<Grant>GM_getValue</Grant>
+		<Grant>GM_setValue</Grant>
+		<Grant>GM_xmlhttpRequest</Grant>
+		<Include>https://launchpad.net/*</Include>
+		<Include>https://*.launchpad.net/*</Include>
+		<Include>https://*.edge.launchpad.net/*</Include>
+	</Script>
+	<Script basedir="LP_Improvements-2" checkRemoteUpdates="1" dependhash="da39a3ee5e6b4b0d3255bfef95601890afd80709" description="(Launchpad) Collection of scripts that modify Launchpad" enabled="true" filename="lp_unified.user.js" installTime="1349929245271" modified="1436329720000" name="LP_Improvements" namespace="http://murraytwins.com/greasemonkey/" runAt="document-end" uuid="1f304374-2c0c-4085-be81-e6ab43d35cd7" version="null" installurl="http://bazaar.launchpad.net/~gm-dev-launchpad/launchpad-gm-scripts/master/download/head:/lp_unified.user.js-20090611031126-w1b7m6a3ip7soazs-1/lp_unified.user.js" updateurl="http://bazaar.launchpad.net/~gm-dev-launchpad/launchpad-gm-scripts/master/download/head:/lp_unified.user.js-20090611031126-w1b7m6a3ip7soazs-1/lp_unified.user.js">
+		<Grant>GM_log</Grant>
+		<Include>https://launchpad.net/*</Include>
+		<Include>https://*.launchpad.net/*</Include>
+		<Include>https://*.edge.launchpad.net/*</Include>
+		<Include>https://launchpad.net/*</Include>
+	</Script>
+	<Script basedir="lp_work_item_editor" checkRemoteUpdates="1" dependhash="da39a3ee5e6b4b0d3255bfef95601890afd80709" description="" enabled="true" filename="lp_work_item_editor.user.js" installTime="1349929245815" modified="1436329720000" name="lp work item editor" namespace="https://launchpad.net/~mwhudson" runAt="document-end" uuid="3a4a76df-5d71-4a77-8366-a1ad34d6053a" version="null" installurl="http://bazaar.launchpad.net/~gm-dev-launchpad/launchpad-gm-scripts/master/download/head:/lp_work_item_editor.-20110831002947-b6i8m4hfj3n89bgf-1/lp_work_item_editor.user.js" updateurl="http://bazaar.launchpad.net/~gm-dev-launchpad/launchpad-gm-scripts/master/download/head:/lp_work_item_editor.-20110831002947-b6i8m4hfj3n89bgf-1/lp_work_item_editor.user.js">
+		<Grant>none</Grant>
+		<Include>https://blueprints.launchpad.net/*</Include>
+		<Include>https://blueprints.launchpad.dev/*</Include>
+		<Include>https://blueprints.staging.launchpad.net/*</Include>
+		<Include>https://blueprints.qastaging.launchpad.net/*</Include>
+	</Script>
+	<Script basedir="LP_Workflow-2" checkRemoteUpdates="1" dependhash="da39a3ee5e6b4b0d3255bfef95601890afd80709" description="(Launchpad) Identify workflow reports" enabled="true" filename="lp_workflowreports.user.js" installTime="1349929245134" modified="1436329720000" name="LP_Workflow" namespace="http://murraytwins.com/greasemonkey/" runAt="document-end" uuid="28860dcd-67c5-4a87-a3fa-64a8c3e04420" version="null" installurl="http://bazaar.launchpad.net/~gm-dev-launchpad/launchpad-gm-scripts/master/download/head:/lp_workflowreports.u-20080506160619-a9txuel95jc8d3a1-1/lp_workflowreports.user.js" updateurl="http://bazaar.launchpad.net/~gm-dev-launchpad/launchpad-gm-scripts/master/download/head:/lp_workflowreports.u-20080506160619-a9txuel95jc8d3a1-1/lp_workflowreports.user.js">
+		<Grant>GM_log</Grant>
+		<Include>https://launchpad.net/*</Include>
+		<Include>https://*.launchpad.net/*</Include>
+		<Include>https://*.edge.launchpad.net/*</Include>
+		<Include>https://launchpad.net/*</Include>
+	</Script>
+	<Script basedir="github.com" checkRemoteUpdates="1" dependhash="da39a3ee5e6b4b0d3255bfef95601890afd80709" description="fix github rendering with old firefox releases (27)" enabled="true" filename="github.com.user.js" installTime="1423671084000" modified="1436329720000" name="github.com" namespace="github.com" runAt="document-end" uuid="f213d7ae-1ea5-4a09-94d3-b2540bb9bb47" version="0.1" installurl="file:///home/muser/.mozilla/firefox/h5xyzl6e.default/gm_scripts/github.com/github.com.user.js" updateurl="file:///home/muser/.mozilla/firefox/h5xyzl6e.default/gm_scripts/github.com/github.com.user.js">
+		<Grant>none</Grant>
+		<Include>*</Include>
+	</Script>
+</UserScriptConfig>

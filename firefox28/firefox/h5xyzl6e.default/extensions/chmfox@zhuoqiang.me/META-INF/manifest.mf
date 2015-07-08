@@ -1,0 +1,102 @@
+Manifest-Version: 1.0
+
+Name: install.rdf
+Digest-Algorithms: MD5 SHA1
+MD5-Digest: EoRT1q10IMf7txj5eVYiXQ==
+SHA1-Digest: /0VNPv6Fl8BFt2bKtJu91v+sHNQ=
+
+Name: chrome.manifest
+Digest-Algorithms: MD5 SHA1
+MD5-Digest: uByahi0bdUM+vkxr6xfPhA==
+SHA1-Digest: PXsi15B68HgBCvtXjJhodsen5FM=
+
+Name: icon.png
+Digest-Algorithms: MD5 SHA1
+MD5-Digest: QH4drWFVnynloAmEP4UyQA==
+SHA1-Digest: E/ucvCVMyXKERGy+XET82SACvqU=
+
+Name: icon64.png
+Digest-Algorithms: MD5 SHA1
+MD5-Digest: mGAv2H1WIdsSHXjMVG2Dig==
+SHA1-Digest: 2MGefO7U2ektz0y5h4QwkLTYCd0=
+
+Name: chrome/content/overlay.js
+Digest-Algorithms: MD5 SHA1
+MD5-Digest: gMY2sIOJ0pPyTz2qWdm0KA==
+SHA1-Digest: /CJFjFTxoMrKl8OeFP139GE+vxs=
+
+Name: chrome/content/overlay.xul
+Digest-Algorithms: MD5 SHA1
+MD5-Digest: jow96P1FB3eCEgJJEaOPUw==
+SHA1-Digest: 7UGE0IAk9Nl2W0qZPOehwMduxio=
+
+Name: chrome/content/sidebar.js
+Digest-Algorithms: MD5 SHA1
+MD5-Digest: epDCGnUO6ay4rzIoJvcLow==
+SHA1-Digest: z01tld3BwGHlSYHDQu15HO2G3To=
+
+Name: chrome/content/sidebar.xul
+Digest-Algorithms: MD5 SHA1
+MD5-Digest: 1f+z0Tp565EEXk4AVydC1Q==
+SHA1-Digest: r9TqpYCsji6HFneekczSrt+vsHE=
+
+Name: chrome/locale/en-US/sidebar.dtd
+Digest-Algorithms: MD5 SHA1
+MD5-Digest: KlVJ36mJ8PSArU6oyTOqfw==
+SHA1-Digest: k5+MQ2AbQx1l/04Lb3wnZ1uK17o=
+
+Name: chrome/locale/zh-CN/sidebar.dtd
+Digest-Algorithms: MD5 SHA1
+MD5-Digest: BlXe7qn85EGGVPQVLwulPQ==
+SHA1-Digest: qKR3Q1jrZeXYkjuyV2AwQ5uIyns=
+
+Name: chrome/locale/zh-TW/sidebar.dtd
+Digest-Algorithms: MD5 SHA1
+MD5-Digest: M/X8g8/zRqD3tGSqPgCQDw==
+SHA1-Digest: 8OaRK0MGCXup5v6jtoOi+KPgeIM=
+
+Name: chrome/skin/overlay.css
+Digest-Algorithms: MD5 SHA1
+MD5-Digest: 1B2M2Y8AsgTpgAmY7PhCfg==
+SHA1-Digest: 2jmj7l5rSw0yVb/vlWAYkK/YBwk=
+
+Name: components/chmfox.js
+Digest-Algorithms: MD5 SHA1
+MD5-Digest: rpcCbdtaAGkGFaYZsNLygA==
+SHA1-Digest: RHJkHCmd7D4vrMorHIZKKTV11bw=
+
+Name: defaults/preferences/prefs.js
+Digest-Algorithms: MD5 SHA1
+MD5-Digest: CZ++SlmKqZ29H2QDUtLuCQ==
+SHA1-Digest: b2W5lmIFTYcvsoSdFBKLN662AJE=
+
+Name: lib/Darwin_x86-gcc3/libchmfox.dylib
+Digest-Algorithms: MD5 SHA1
+MD5-Digest: 6/6Z1us0mflxBspoTqrtZw==
+SHA1-Digest: sxYiFpqcHSFbu5idqgLvlKwHuEk=
+
+Name: lib/Darwin_x86_64-gcc3/libchmfox.dylib
+Digest-Algorithms: MD5 SHA1
+MD5-Digest: jY/bp1fX+dOjB8L92xs6qA==
+SHA1-Digest: qp5wUSMbiUcPOr6xGQiVPYcIg5M=
+
+Name: lib/Linux_x86-gcc3/libchmfox.so
+Digest-Algorithms: MD5 SHA1
+MD5-Digest: RUugIGgpYBUgpPuV7KMAsA==
+SHA1-Digest: HdHqKgyiUzlHenvjDmt2guYUxEg=
+
+Name: lib/Linux_x86_64-gcc3/libchmfox.so
+Digest-Algorithms: MD5 SHA1
+MD5-Digest: thFxBtgVypC9S6cOq0zgIQ==
+SHA1-Digest: zvHZ2aRL4MJavN/+Wduip8/YMrU=
+
+Name: lib/WINNT_x86-msvc/libchmfox.dll
+Digest-Algorithms: MD5 SHA1
+MD5-Digest: ElpELuJcyPdk2HRm4F1UDw==
+SHA1-Digest: cJf3rEtTeJBsJ3QGTGD2DzKh/OI=
+
+Name: lib/WINNT_x86_64-msvc/libchmfox.dll
+Digest-Algorithms: MD5 SHA1
+MD5-Digest: ri3zmRBxbnD3xOHCa5C+BQ==
+SHA1-Digest: gpW0ajzOJHoh3rXKeqEQJBn0L7o=
+

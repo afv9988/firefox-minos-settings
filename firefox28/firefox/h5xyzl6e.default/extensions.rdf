@@ -1,0 +1,2009 @@
+<?xml version="1.0"?>
+<RDF:RDF xmlns:NS1="http://www.mozilla.org/2004/em-rdf#"
+         xmlns:NC="http://home.netscape.com/NC-rdf#"
+         xmlns:RDF="http://www.w3.org/1999/02/22-rdf-syntax-ns#">
+  <RDF:Description RDF:about="rdf:#$BSwoU3"
+                   NS1:id="{86c18b42-e466-45a9-ae7a-9b95ba6f5640}"
+                   NS1:minVersion="1.5"
+                   NS1:maxVersion="1.8+" />
+  <RDF:Description RDF:about="urn:mozilla:item:{e968fc70-8f95-4ab9-9e79-304de2a71ee1}"
+                   NS1:installLocation="app-profile"
+                   NS1:version="0.7.3"
+                   NS1:optionsURL="chrome://useragentswitcher/content/options/options.xul"
+                   NS1:aboutURL="chrome://useragentswitcher/content/about/about.xul"
+                   NS1:iconURL="chrome://useragentswitcher/content/logo.png"
+                   NS1:name="User Agent Switcher"
+                   NS1:description="Adds a menu and a toolbar button to switch the user agent of a browser."
+                   NS1:creator="Chris Pederick"
+                   NS1:homepageURL="http://chrispederick.com/work/user-agent-switcher/">
+    <NS1:type NC:parseType="Integer">2</NS1:type>
+    <NS1:targetApplication RDF:resource="rdf:#$DbxoU3"/>
+    <NS1:targetApplication RDF:resource="rdf:#$EbxoU3"/>
+    <NS1:targetApplication RDF:resource="rdf:#$FbxoU3"/>
+    <NS1:targetApplication RDF:resource="rdf:#$GbxoU3"/>
+  </RDF:Description>
+  <RDF:Description RDF:about="rdf:#$J9xoU3"
+                   NS1:locale="fr-FR"
+                   NS1:name="En-têtes HTTP en direct"
+                   NS1:description="Affiche les en-têtes HTTP des pages pendant votre navigation." />
+  <RDF:Description RDF:about="rdf:#$w.woU3"
+                   NS1:locale="pt-BR"
+                   NS1:name="Adblock Plus"
+                   NS1:description="Propaganda indesejada é coisa do passado!"
+                   NS1:creator="Wladimir Palant"
+                   NS1:homepageURL="http://adblockplus.org/" />
+  <RDF:Description RDF:about="rdf:#$KfQbQ2"
+                   NS1:id="{ec8030f7-c20a-464f-9b0e-13a3a9e97384}"
+                   NS1:minVersion="3.6"
+                   NS1:maxVersion="7.*" />
+  <RDF:Description RDF:about="urn:mozilla:item:firebug@software.joehewitt.com"
+                   NS1:installLocation="app-profile"
+                   NS1:version="1.6.2"
+                   NS1:updateURL="https://getfirebug.com/releases/firebug/1.6/update.rdf"
+                   NS1:iconURL="chrome://firebug/skin/firebug32.png"
+                   NS1:name="Firebug"
+                   NS1:description="Web Development Evolved."
+                   NS1:creator="Joe Hewitt"
+                   NS1:homepageURL="http://www.getfirebug.com/">
+    <NS1:type NC:parseType="Integer">2</NS1:type>
+    <NS1:translator>Leszek(teo)Zyczkowski (pl-PL)</NS1:translator>
+    <NS1:translator>markh (nl-NL)</NS1:translator>
+    <NS1:translator>peter3 (sv-SE)</NS1:translator>
+    <NS1:translator>AlleyKat (da-DK)</NS1:translator>
+    <NS1:translator>Hector Zhao, lovelywcm (zh-CN)</NS1:translator>
+    <NS1:translator>Lukas Kucharczyk, Michal Kec (cs-CZ)</NS1:translator>
+    <NS1:translator>Team erweiterungen.de, ReinekeFux, Benedikt Langens, Sebastian Zartner (de-DE)</NS1:translator>
+    <NS1:translator>l0stintranslation, gonzalopirobutirro (it-IT)</NS1:translator>
+    <NS1:translator>alexxed (ro-RO)</NS1:translator>
+    <NS1:translator>Nicolas Martin, Franck Marcia (fr-FR)</NS1:translator>
+    <NS1:translator>gLes (hu-HU)</NS1:translator>
+    <NS1:translator>Xavi Ivars - Softcatala (ca)</NS1:translator>
+    <NS1:translator>gezmen (tr-TR)</NS1:translator>
+    <NS1:translator>eternoendless (es-AR)</NS1:translator>
+    <NS1:translator>Dark Preacher (ru-RU)</NS1:translator>
+    <NS1:translator>Tiago Oliveira, Diego de Carvalho Zimmermann, Alexandre Rapaki (pt-BR)</NS1:translator>
+    <NS1:translator>Juan Botias, Alvaro G. Vicario (es-ES)</NS1:translator>
+    <NS1:translator>Andriy Zhouck (uk-UA)</NS1:translator>
+    <NS1:translator>Hisateru Tanaka (ja-JP)</NS1:translator>
+    <NS1:translator>Mohsen Shadroo (fa-IR)</NS1:translator>
+    <NS1:translator>Eduard Babayan (hy-AM)</NS1:translator>
+    <NS1:translator>Helder Magalhaes (pt-PT)</NS1:translator>
+    <NS1:translator>Tomaz Macus (sl-SI)</NS1:translator>
+    <NS1:translator>Stoyan Stefanov, Alexander Shopov (bg)</NS1:translator>
+    <NS1:translator>Kristjan Bjarni Guomundsson (is-IS)</NS1:translator>
+    <NS1:translator>NGUYEN Manh Hung (vi-VN)</NS1:translator>
+    <NS1:translator>Bwah (hr-HR)</NS1:translator>
+    <NS1:translator>Sonickydon (el-GR)</NS1:translator>
+    <NS1:translator>David Gonzales (es)</NS1:translator>
+    <NS1:translator>DakSrbija (sr)</NS1:translator>
+    <NS1:contributor>John J. Barton (IBM Almaden)</NS1:contributor>
+    <NS1:contributor>Jan Odvarko (Mozilla Corp.)</NS1:contributor>
+    <NS1:contributor>Max Stepanov (Aptana Inc.)</NS1:contributor>
+    <NS1:contributor>Rob Campbell (Mozilla Corp.)</NS1:contributor>
+    <NS1:contributor>Hans Hillen (Paciello Group, Mozilla)</NS1:contributor>
+    <NS1:contributor>Curtis Bartley (Mozilla Corp.)</NS1:contributor>
+    <NS1:contributor>Mike Collins (IBM Almaden)</NS1:contributor>
+    <NS1:contributor>Kevin Decker</NS1:contributor>
+    <NS1:contributor>Mike Ratcliffe (Comartis AG)</NS1:contributor>
+    <NS1:contributor>Hernan Rodriguez Colmeiro</NS1:contributor>
+    <NS1:contributor>Austin Andrews</NS1:contributor>
+    <NS1:contributor>Christoph Dorn</NS1:contributor>
+    <NS1:contributor>Steven Roussey (AppCenter Inc, Network54)</NS1:contributor>
+    <NS1:contributor>Sebastian Zartner</NS1:contributor>
+    <NS1:targetApplication RDF:resource="rdf:#$SZPbQ2"/>
+  </RDF:Description>
+  <RDF:Description RDF:about="urn:mozilla:item:{e4a8a97b-f2ed-450b-b12d-ee082ba24781}"
+                   NS1:installLocation="app-profile"
+                   NS1:version="0.9.12"
+                   NS1:optionsURL="chrome://greasemonkey/content/options.xul"
+                   NS1:iconURL="chrome://greasemonkey/skin/icon32.png"
+                   NS1:name="Greasemonkey"
+                   NS1:description="A User Script Manager for Firefox"
+                   NS1:creator="Aaron Boodman; http://youngpup.net/"
+                   NS1:homepageURL="http://www.greasespot.net/">
+    <NS1:type NC:parseType="Integer">2</NS1:type>
+    <NS1:contributor>Anthony Lieuallen; http://arantius.com/</NS1:contributor>
+    <NS1:contributor>Chris Feldmann; http://axlotl.net/</NS1:contributor>
+    <NS1:contributor>David Schontzler; http://stilleye.com/</NS1:contributor>
+    <NS1:contributor>Erik Vold; http://erikvold.com/</NS1:contributor>
+    <NS1:contributor>Gareth Andrew; http://freegarethandrew.org/</NS1:contributor>
+    <NS1:contributor>Hisateru Tanaka</NS1:contributor>
+    <NS1:contributor>Jeremy Dunck; http://dunck.us/anabasis/</NS1:contributor>
+    <NS1:contributor>Jesper Kristensen; &lt;mail@jesperkristensen.dk&gt;</NS1:contributor>
+    <NS1:contributor>Johan Sundström; http://ecmanaut.blogspot.com/</NS1:contributor>
+    <NS1:contributor>JP Sugarbroad</NS1:contributor>
+    <NS1:contributor>Juan Pablo Guereca Alonso</NS1:contributor>
+    <NS1:contributor>Manpreet Singh</NS1:contributor>
+    <NS1:contributor>Mark Pilgrim; http://diveintomark.org/</NS1:contributor>
+    <NS1:contributor>Marti Martz</NS1:contributor>
+    <NS1:contributor>Matthew Gray; http://mkgray.com:8000/</NS1:contributor>
+    <NS1:contributor>Matthias Bauer; http://moeffju.net/</NS1:contributor>
+    <NS1:contributor>Mike Medley; http://sizzlemctwizzle.com/</NS1:contributor>
+    <NS1:contributor>Nikolas Coukouma; http://atrus.org/</NS1:contributor>
+    <NS1:contributor>Ori Avtallon</NS1:contributor>
+    <NS1:contributor>Pak Kei (logo); http://arkidect.com/</NS1:contributor>
+    <NS1:contributor>Sam Larison; http://samlarison.com/</NS1:contributor>
+    <NS1:contributor>Sergio Abreu; http://sitedosergio.sitesbr.net/</NS1:contributor>
+    <NS1:contributor>Tommi Rautava</NS1:contributor>
+    <NS1:targetApplication RDF:resource="rdf:#$Q7xoU3"/>
+  </RDF:Description>
+  <RDF:Description RDF:about="rdf:#$z.woU3"
+                   NS1:locale="ru"
+                   NS1:name="Adblock Plus"
+                   NS1:description="Скажи &quot;нет&quot; рекламе!"
+                   NS1:creator="Wladimir Palant"
+                   NS1:homepageURL="http://adblockplus.org/ru/" />
+  <RDF:Description RDF:about="rdf:#$n.woU3"
+                   NS1:locale="it"
+                   NS1:name="Adblock Plus"
+                   NS1:description="Permette di dire 'no' alla pubblicità presente nelle pagine web!"
+                   NS1:creator="Wladimir Palant"
+                   NS1:homepageURL="http://adblockplus.org/" />
+  <RDF:Description RDF:about="urn:mozilla:item:xdebughelper@mail.ru"
+                   NS1:installLocation="app-profile"
+                   NS1:version="0.3.1"
+                   NS1:optionsURL="chrome://xdebughelper/content/settings.xul"
+                   NS1:iconURL="chrome://xdebughelper/content/images/icon.png"
+                   NS1:name="Xdebug Helper"
+                   NS1:description="Tool to start/stop debug and profiling with PHP's Xdebug extension"
+                   NS1:creator="Denis Orlikhin"
+                   NS1:contributor="Andry Gunawan"
+                   NS1:appDisabled="true">
+    <NS1:type NC:parseType="Integer">2</NS1:type>
+    <NS1:targetApplication RDF:resource="rdf:#$z0QbQ2"/>
+  </RDF:Description>
+  <RDF:Description RDF:about="rdf:#$+ZwoU3"
+                   NS1:locale="bg"
+                   NS1:name="Adblock Plus"
+                   NS1:description="Рекламите бяха вчера!"
+                   NS1:creator="Wladimir Palant"
+                   NS1:homepageURL="http://adblockplus.org/" />
+  <RDF:Description RDF:about="rdf:#$21xoU3"
+                   NS1:id="{92650c4d-4b8e-4d2a-b7eb-24ecf4f6b63a}"
+                   NS1:minVersion="1.0"
+                   NS1:maxVersion="2.0.*" />
+  <RDF:Description RDF:about="rdf:#$T6xoU3"
+                   NS1:locale="de"
+                   NS1:name="Tab Counter"
+                   NS1:description="Zeigt die Anzahl der offenen Tabs"
+                   NS1:creator="Morac"
+                   NS1:translator="Team erweiterungen.de (de)"
+                   NS1:contributor="Jonathon Merz" />
+  <RDF:Description RDF:about="rdf:#$icxoU3"
+                   NS1:id="{92650c4d-4b8e-4d2a-b7eb-24ecf4f6b63a}"
+                   NS1:minVersion="1.1"
+                   NS1:maxVersion="2.4.*" />
+  <RDF:Description RDF:about="rdf:#$jcxoU3"
+                   NS1:id="{a23983c0-fd0e-11dc-95ff-0800200c9a66}"
+                   NS1:minVersion="1.1"
+                   NS1:maxVersion="7.*" />
+  <RDF:Description RDF:about="urn:mozilla:item:keysnail@mooz.github.com"
+                   NS1:installLocation="app-profile"
+                   NS1:version="1.6.5"
+                   NS1:updateURL="http://github.com/mooz/keysnail/raw/master/update.rdf"
+                   NS1:optionsURL="chrome://keysnail/content/preference.xul"
+                   NS1:iconURL="chrome://keysnail/skin/icon.png"
+                   NS1:updateKey="MIGfMA0GCSqGSIb3DQEBAQUAA4GNADCBiQKBgQDTIIo3r67JK6DJIBYyczbI/NrGurO0k5Cwn5rvXlNsRrA0LgAuCnofEdlicwxpmItBuwfdRJdZlKnaupJZPKrLoZz3t3BR4O4rBDKlY5rZM6Doqd5lBHAOXiZ35KsV4se7NKWvAZSqcpt6SLoL/YnjJ/o3Rz86i7E6BePcvutxoQIDAQAB"
+                   NS1:name="KeySnail"
+                   NS1:description="Bind function to the key sequence!"
+                   NS1:creator="mooz"
+                   NS1:homepageURL="http://wiki.github.com/mooz/keysnail/"
+                   NS1:developer="mooz">
+    <NS1:type NC:parseType="Integer">2</NS1:type>
+    <NS1:localized RDF:resource="rdf:#$23xoU3"/>
+    <NS1:targetApplication RDF:resource="rdf:#$33xoU3"/>
+  </RDF:Description>
+  <RDF:Description RDF:about="rdf:#$0dxoU3"
+                   NS1:id="{ec8030f7-c20a-464f-9b0e-13a3a9e97384}"
+                   NS1:minVersion="3.6.24"
+                   NS1:maxVersion="3.6.24" />
+  <RDF:Description RDF:about="rdf:#$C2xoU3"
+                   NS1:id="{3550f703-e582-4d05-9a08-453d09bdfdc6}"
+                   NS1:minVersion="2.0a1"
+                   NS1:maxVersion="3.1.*" />
+  <RDF:Description RDF:about="rdf:#$G+woU3"
+                   NS1:id="{3550f703-e582-4d05-9a08-453d09bdfdc6}"
+                   NS1:minVersion="3.0"
+                   NS1:maxVersion="10.0a1" />
+  <RDF:Description RDF:about="rdf:#$pSwoU3"
+                   NS1:id="{a463f10c-3994-11da-9945-000d60ca027b}"
+                   NS1:minVersion="0.4"
+                   NS1:maxVersion="2.0.*" />
+  <RDF:Description RDF:about="rdf:#$22xoU3"
+                   NS1:id="{a463f10c-3994-11da-9945-000d60ca027b}"
+                   NS1:minVersion="1.0"
+                   NS1:maxVersion="2.0.*" />
+  <RDF:Description RDF:about="rdf:#$S6xoU3"
+                   NS1:locale="da"
+                   NS1:name="Tab Counter"
+                   NS1:description="Tæller antallet af åbne faner."
+                   NS1:creator="Morac"
+                   NS1:translator="typh (da)"
+                   NS1:contributor="Jonathon Merz" />
+  <RDF:Description RDF:about="urn:mozilla:item:ubiquity@labs.mozilla.com"
+                   NS1:installLocation="app-profile"
+                   NS1:userDisabled="true"
+                   NS1:version="0.6"
+                   NS1:optionsURL="chrome://ubiquity/content/preferences.xul"
+                   NS1:iconURL="chrome://ubiquity/skin/icons/ubiquibot-square.png"
+                   NS1:name="Ubiquity"
+                   NS1:description="An extension that allows for the use of dynamic commands in Firefox."
+                   NS1:creator="Mozilla Corporation"
+                   NS1:homepageURL="https://mozillalabs.com/ubiquity/">
+    <NS1:type NC:parseType="Integer">2</NS1:type>
+    <NS1:translator>egamonal, toniher (ca)</NS1:translator>
+    <NS1:translator>cers (da-DK)</NS1:translator>
+    <NS1:translator>cmos (de)</NS1:translator>
+    <NS1:translator>queltosh (es-ES)</NS1:translator>
+    <NS1:translator>AtteL (fi-FI)</NS1:translator>
+    <NS1:translator>ccorazza, Frederic, Goofy, myahoo (fr)</NS1:translator>
+    <NS1:translator>moZes (fy-NL)</NS1:translator>
+    <NS1:translator>kkemenczy (hu)</NS1:translator>
+    <NS1:translator>gialloporpora (it-IT)</NS1:translator>
+    <NS1:translator>mar, powchin, satyr (ja)</NS1:translator>
+    <NS1:translator>nathansamson (nl)</NS1:translator>
+    <NS1:translator>teo (pl-PL)</NS1:translator>
+    <NS1:translator>camponez (pt)</NS1:translator>
+    <NS1:translator>brunomagrani, fernph (pt-BR)</NS1:translator>
+    <NS1:translator>mrfyda (pt-PT)</NS1:translator>
+    <NS1:translator>Quicksilver tears, SeLarin (ru-RU)</NS1:translator>
+    <NS1:translator>yfdyh000 (zh-CN)</NS1:translator>
+    <NS1:translator>kourge (zh-TW)</NS1:translator>
+    <NS1:targetApplication RDF:resource="rdf:#$41QbQ2"/>
+  </RDF:Description>
+  <RDF:Description RDF:about="rdf:#$O9xoU3"
+                   NS1:id="{ec8030f7-c20a-464f-9b0e-13a3a9e97384}"
+                   NS1:minVersion="0.8"
+                   NS1:maxVersion="4.0.*" />
+  <RDF:Description RDF:about="rdf:#$c7xoU3"
+                   NS1:id="{3db10fab-e461-4c80-8b97-957ad5f8ea47}"
+                   NS1:minVersion="8.0"
+                   NS1:maxVersion="9.0.0.*" />
+  <RDF:Description RDF:about="urn:mozilla:item:{d47a9f51-8281-43fa-f450-f28ef8735e9a}"
+                   NS1:installLocation="app-profile"
+                   NS1:version="2.1.1"
+                   NS1:optionsURL="chrome://pixlr/content/options.xul"
+                   NS1:iconURL="chrome://pixlr/content/icon.png"
+                   NS1:name="Pixlr Grabber"
+                   NS1:description="Grab images and screens to edit or share them in the pixlr services."
+                   NS1:creator="Pixlr"
+                   NS1:homepageURL="http://pixlr.com/">
+    <NS1:type NC:parseType="Integer">2</NS1:type>
+    <NS1:targetApplication RDF:resource="rdf:#$DaxoU3"/>
+  </RDF:Description>
+  <RDF:Description RDF:about="rdf:#$N9xoU3"
+                   NS1:locale="ru-RU"
+                   NS1:name="Просмотр HTTP заголовков"
+                   NS1:description="Просмотр HTTP - заголовков в реальном времени." />
+  <RDF:Description RDF:about="rdf:#$E.woU3"
+                   NS1:locale="sv-SE"
+                   NS1:name="Adblock Plus"
+                   NS1:description="Säg farväl till all reklam!"
+                   NS1:creator="Wladimir Palant"
+                   NS1:homepageURL="http://adblockplus.org/" />
+  <RDF:Description RDF:about="rdf:#$s.woU3"
+                   NS1:locale="mn"
+                   NS1:name="Adblock Plus"
+                   NS1:description="Сурталчилгаа бол өчигдөр байлаа!"
+                   NS1:creator="Wladimir Palant"
+                   NS1:homepageURL="http://adblockplus.org/" />
+  <RDF:Description RDF:about="rdf:#$g.woU3"
+                   NS1:locale="gl"
+                   NS1:name="Adblock Plus"
+                   NS1:description="Os anuncios son cousa do pasado!"
+                   NS1:creator="Wladimir Palant"
+                   NS1:homepageURL="http://adblockplus.org/" />
+  <RDF:Description RDF:about="rdf:#$4.woU3"
+                   NS1:locale="el"
+                   NS1:name="Adblock Plus"
+                   NS1:description="Αφήστε τις διαφημίσεις στο χθες!"
+                   NS1:creator="Wladimir Palant"
+                   NS1:homepageURL="http://adblockplus.org/" />
+  <RDF:Description RDF:about="rdf:#$87xoU3"
+                   NS1:locale="zh-CN"
+                   NS1:name="Tab Counter"
+                   NS1:description="显示已打开标签页数目"
+                   NS1:creator="Morac"
+                   NS1:translator="Xmoke (zh-CN)"
+                   NS1:contributor="Jonathon Merz" />
+  <RDF:Description RDF:about="urn:mozilla:item:firebug@tools.sitepoint.com"
+                   NS1:installLocation="app-profile"
+                   NS1:userDisabled="true"
+                   NS1:version="1.6"
+                   NS1:iconURL="chrome://sitepointreference/content/applogo.png"
+                   NS1:name="CodeBurner for Firebug"
+                   NS1:description="Extends Firebug with reference material for HTML and CSS"
+                   NS1:creator="brothercake; http://www.brothercake.com/"
+                   NS1:homepageURL="http://tools.sitepoint.com/codeburner">
+    <NS1:type NC:parseType="Integer">2</NS1:type>
+    <NS1:contributor>Kevin Yank; http://www.kevinyank.com/</NS1:contributor>
+    <NS1:contributor>Ian Lloyd; http://lloydi.com/</NS1:contributor>
+    <NS1:contributor>Tommy Olsson; http://www.autisticcuckoo.net/</NS1:contributor>
+    <NS1:contributor>Paul O'Brien; http://www.pmob.co.uk/</NS1:contributor>
+    <NS1:targetApplication RDF:resource="rdf:#$Z4QbQ2"/>
+    <NS1:targetApplication RDF:resource="rdf:#$.4QbQ2"/>
+  </RDF:Description>
+  <RDF:Description RDF:about="urn:mozilla:item:lazarus@interclue.com"
+                   NS1:installLocation="app-profile"
+                   NS1:version="2.3"
+                   NS1:optionsURL="chrome://lazarus/content/options.xul"
+                   NS1:aboutURL="chrome://lazarus/content/about.xul"
+                   NS1:iconURL="chrome://lazarus/skin/lazarus-32.png"
+                   NS1:name="Lazarus: Form Recovery"
+                   NS1:description="Recover lost forms with a single click"
+                   NS1:creator="Karl Dearden"
+                   NS1:homepageURL="http://lazarus.interclue.com/">
+    <NS1:type NC:parseType="Integer">2</NS1:type>
+    <NS1:targetApplication RDF:resource="rdf:#$TSwoU3"/>
+  </RDF:Description>
+  <RDF:Description RDF:about="rdf:#$e.woU3"
+                   NS1:locale="fr"
+                   NS1:name="Adblock Plus"
+                   NS1:description="Les publicités, c'est du passé !"
+                   NS1:creator="Wladimir Palant"
+                   NS1:homepageURL="http://adblockplus.org/fr/" />
+  <RDF:Description RDF:about="rdf:#$X3QbQ2"
+                   NS1:id="{92650c4d-4b8e-4d2a-b7eb-24ecf4f6b63a}"
+                   NS1:minVersion="1.0"
+                   NS1:maxVersion="2.0.*" />
+  <RDF:Description RDF:about="rdf:#$zSwoU3"
+                   NS1:id="{ec8030f7-c20a-464f-9b0e-13a3a9e97384}"
+                   NS1:minVersion="1.0"
+                   NS1:maxVersion="9.0a2" />
+  <RDF:Description RDF:about="urn:mozilla:item:{972ce4c6-7e08-4474-a285-3208198ce6fd}"
+                   NS1:installLocation="app-global"
+                   NS1:version="3.6.24"
+                   NS1:internalName="classic/1.0"
+                   NS1:locked="true"
+                   NS1:appManaged="true"
+                   NS1:name="Default"
+                   NS1:description="The default theme."
+                   NS1:creator="Mozilla"
+                   NS1:contributor="Mozilla Contributors">
+    <NS1:type NC:parseType="Integer">4</NS1:type>
+    <NS1:targetApplication RDF:resource="rdf:#$0dxoU3"/>
+  </RDF:Description>
+  <RDF:Description RDF:about="rdf:#$j0QbQ2"
+                   NS1:id="{ec8030f7-c20a-464f-9b0e-13a3a9e97384}"
+                   NS1:minVersion="3.5"
+                   NS1:maxVersion="3.6.*" />
+  <RDF:Description RDF:about="rdf:#$37xoU3"
+                   NS1:locale="pt-PT"
+                   NS1:name="Tab Counter"
+                   NS1:description="Conta o número de separadores abertos."
+                   NS1:creator="Morac"
+                   NS1:translator="lloco (pt-PT)"
+                   NS1:contributor="Jonathon Merz" />
+  <RDF:Description RDF:about="rdf:#$uSwoU3"
+                   NS1:id="songbird@songbirdnest.com"
+                   NS1:minVersion="0.7"
+                   NS1:maxVersion="1.2.0" />
+  <RDF:Description RDF:about="urn:mozilla:item:{a7c6cf7f-112c-4500-a7ea-39801a327e5f}"
+                   NS1:installLocation="app-profile"
+                   NS1:userDisabled="true"
+                   NS1:version="1.0.10"
+                   NS1:optionsURL="chrome://fireftp/content/preferences.xul"
+                   NS1:iconURL="chrome://fireftp/skin/icons/logo32.png"
+                   NS1:name="FireFTP"
+                   NS1:description="FTP client for Mozilla Firefox."
+                   NS1:creator="Mime Čuvalo"
+                   NS1:homepageURL="http://fireftp.mozdev.org">
+    <NS1:type NC:parseType="Integer">2</NS1:type>
+    <NS1:contributor>Devin Pohly</NS1:contributor>
+    <NS1:contributor>Scott Bentley</NS1:contributor>
+    <NS1:targetApplication RDF:resource="rdf:#$FeQbQ2"/>
+  </RDF:Description>
+  <RDF:Description RDF:about="rdf:#$rcxoU3"
+                   NS1:id="{a463f10c-3994-11da-9945-000d60ca027b}"
+                   NS1:minVersion="0.7"
+                   NS1:maxVersion="2.6.*" />
+  <RDF:Description RDF:about="rdf:#$H9xoU3"
+                   NS1:locale="en-US"
+                   NS1:name="Live HTTP headers"
+                   NS1:description="View HTTP headers of a page and while browsing." />
+  <RDF:Description RDF:about="rdf:#$4bxoU3"
+                   NS1:id="{59c81df5-4b7a-477b-912d-4e0fdf64e5f2}"
+                   NS1:minVersion="0"
+                   NS1:maxVersion="*" />
+  <RDF:Description RDF:about="rdf:#$J.woU3"
+                   NS1:locale="zh-CN"
+                   NS1:name="Adblock Plus"
+                   NS1:description="广告已成往事！"
+                   NS1:creator="Wladimir Palant"
+                   NS1:homepageURL="https://adblockplus.org/zh_CN/" />
+  <RDF:Description RDF:about="rdf:#$x.woU3"
+                   NS1:locale="pt-PT"
+                   NS1:name="Adblock Plus"
+                   NS1:description="Publicidade... já era!"
+                   NS1:creator="Wladimir Palant"
+                   NS1:homepageURL="http://adblockplus.org/" />
+  <RDF:Description RDF:about="rdf:#$l.woU3"
+                   NS1:locale="hy-AM"
+                   NS1:name="Adblock Plus"
+                   NS1:description="Գովազդները երեկ էին!"
+                   NS1:creator="Wladimir Palant"
+                   NS1:homepageURL="http://adblockplus.org/" />
+  <RDF:Description RDF:about="rdf:#$9.woU3"
+                   NS1:locale="es-ES"
+                   NS1:name="Adblock Plus"
+                   NS1:description="La publicidad es cosa del ayer"
+                   NS1:creator="Wladimir Palant"
+                   NS1:homepageURL="http://adblockplus.org/es/" />
+  <RDF:Description RDF:about="rdf:#$d7xoU3"
+                   NS1:id="{92650c4d-4b8e-4d2a-b7eb-24ecf4f6b63a}"
+                   NS1:minVersion="2.0a1"
+                   NS1:maxVersion="2.1b2" />
+  <RDF:Description RDF:about="rdf:#$01xoU3"
+                   NS1:id="{ec8030f7-c20a-464f-9b0e-13a3a9e97384}"
+                   NS1:minVersion="1.0"
+                   NS1:maxVersion="4.0.*" />
+  <RDF:Description RDF:about="rdf:#$17xoU3"
+                   NS1:locale="pl"
+                   NS1:name="Tab Counter"
+                   NS1:description="Zlicza i wyświetla na głównym pasku menu liczbę otwartych kart"
+                   NS1:creator="Morac"
+                   NS1:translator="Leszek(teo)Życzkowski (pl)"
+                   NS1:contributor="Jonathon Merz" />
+  <RDF:Description RDF:about="rdf:#$R6xoU3"
+                   NS1:locale="cs"
+                   NS1:name="Tab Counter"
+                   NS1:description="Zobrazuje počet otevřených panelů."
+                   NS1:creator="Morac"
+                   NS1:translator="PetrTwo (cs)"
+                   NS1:contributor="Jonathon Merz" />
+  <RDF:Description RDF:about="rdf:#$c0xoU3"
+                   NS1:id="{ec8030f7-c20a-464f-9b0e-13a3a9e97384}"
+                   NS1:minVersion="1.5"
+                   NS1:maxVersion="4.2a1pre" />
+  <RDF:Description RDF:about="rdf:#$Z4QbQ2"
+                   NS1:id="{ec8030f7-c20a-464f-9b0e-13a3a9e97384}"
+                   NS1:minVersion="2.0"
+                   NS1:maxVersion="8.*" />
+  <RDF:Description RDF:about="urn:mozilla:item:tinyurl.addon@fast-chat.co.uk"
+                   NS1:installLocation="app-profile"
+                   NS1:version="2.5.1"
+                   NS1:optionsURL="chrome://tinyurlgen/content/options.xul"
+                   NS1:name="TinyURL Generator"
+                   NS1:description="An extension to generate a TinyUrl in the background of any webpage"
+                   NS1:creator="Richard Miles"
+                   NS1:homepageURL="http://code.google.com/p/tinyurl-generator/">
+    <NS1:type NC:parseType="Integer">2</NS1:type>
+    <NS1:translator>jojaba</NS1:translator>
+    <NS1:translator>Ghelman</NS1:translator>
+    <NS1:translator>DakSrbija</NS1:translator>
+    <NS1:translator>mik</NS1:translator>
+    <NS1:translator>57_homer</NS1:translator>
+    <NS1:translator>mendinho</NS1:translator>
+    <NS1:translator>denmmx</NS1:translator>
+    <NS1:translator>Opakoman</NS1:translator>
+    <NS1:translator>KNTRO</NS1:translator>
+    <NS1:translator>AlePerez92</NS1:translator>
+    <NS1:translator>Bling</NS1:translator>
+    <NS1:translator>cknblue</NS1:translator>
+    <NS1:translator>markh</NS1:translator>
+    <NS1:translator>dinusha84</NS1:translator>
+    <NS1:translator>Azreal</NS1:translator>
+    <NS1:translator>eren</NS1:translator>
+    <NS1:translator>longh</NS1:translator>
+    <NS1:translator>WangKing</NS1:translator>
+    <NS1:translator>Tim</NS1:translator>
+    <NS1:translator>kib82330</NS1:translator>
+    <NS1:translator>frajjsen</NS1:translator>
+    <NS1:translator>HorstS</NS1:translator>
+    <NS1:translator>Grunt</NS1:translator>
+    <NS1:targetApplication RDF:resource="rdf:#$paxoU3"/>
+  </RDF:Description>
+  <RDF:Description RDF:about="rdf:#$U3QbQ2"
+                   NS1:locale="da-DK"
+                   NS1:name="ShowIP"
+                   NS1:description="Viser IP addressen på den viste side i statusbaren. Den tillader og forespørgsler til specielle IP services (højre museknap) og Hostnavn (venstre museknap), såsom whois, netcraft. Alternativt kan du kopiere IP addressen til udklipsholderen. Denne udvidelse var før kendt som ipv6ident. Kun GPLv2 licens." />
+  <RDF:Description RDF:about="rdf:#$07xoU3"
+                   NS1:locale="nl"
+                   NS1:name="Tab Counter"
+                   NS1:description="Telt het aantal openstaande tabbladen."
+                   NS1:creator="Morac"
+                   NS1:translator="Markh (nl)"
+                   NS1:contributor="Jonathon Merz" />
+  <RDF:Description RDF:about="rdf:#$U+woU3"
+                   NS1:id="{ec8030f7-c20a-464f-9b0e-13a3a9e97384}"
+                   NS1:minVersion="3.0"
+                   NS1:maxVersion="4.0.*" />
+  <RDF:Description RDF:about="rdf:#$A2xoU3"
+                   NS1:id="{ec8030f7-c20a-464f-9b0e-13a3a9e97384}"
+                   NS1:minVersion="2.0b1"
+                   NS1:maxVersion="3.6.*" />
+  <RDF:Description RDF:about="rdf:#$E+woU3"
+                   NS1:id="{ec8030f7-c20a-464f-9b0e-13a3a9e97384}"
+                   NS1:minVersion="3.0"
+                   NS1:maxVersion="10.0a1" />
+  <RDF:Description RDF:about="urn:mozilla:item:tabcounter@morac"
+                   NS1:installLocation="app-profile"
+                   NS1:version="1.8.8"
+                   NS1:optionsURL="chrome://tabcounter-morac/content/options.xul"
+                   NS1:name="Tab Counter"
+                   NS1:description="Counts the number of open tabs"
+                   NS1:creator="Michael Kraft"
+                   NS1:contributor="Jonathon Merz">
+    <NS1:type NC:parseType="Integer">2</NS1:type>
+    <NS1:localized RDF:resource="rdf:#$R6xoU3"/>
+    <NS1:localized RDF:resource="rdf:#$S6xoU3"/>
+    <NS1:localized RDF:resource="rdf:#$T6xoU3"/>
+    <NS1:localized RDF:resource="rdf:#$U6xoU3"/>
+    <NS1:localized RDF:resource="rdf:#$V6xoU3"/>
+    <NS1:localized RDF:resource="rdf:#$W6xoU3"/>
+    <NS1:localized RDF:resource="rdf:#$X6xoU3"/>
+    <NS1:localized RDF:resource="rdf:#$Y6xoU3"/>
+    <NS1:localized RDF:resource="rdf:#$Z6xoU3"/>
+    <NS1:localized RDF:resource="rdf:#$.6xoU3"/>
+    <NS1:localized RDF:resource="rdf:#$+6xoU3"/>
+    <NS1:localized RDF:resource="rdf:#$07xoU3"/>
+    <NS1:localized RDF:resource="rdf:#$17xoU3"/>
+    <NS1:localized RDF:resource="rdf:#$27xoU3"/>
+    <NS1:localized RDF:resource="rdf:#$37xoU3"/>
+    <NS1:localized RDF:resource="rdf:#$47xoU3"/>
+    <NS1:localized RDF:resource="rdf:#$57xoU3"/>
+    <NS1:localized RDF:resource="rdf:#$67xoU3"/>
+    <NS1:localized RDF:resource="rdf:#$77xoU3"/>
+    <NS1:localized RDF:resource="rdf:#$87xoU3"/>
+    <NS1:localized RDF:resource="rdf:#$97xoU3"/>
+    <NS1:translator>PetrTwo (cs)</NS1:translator>
+    <NS1:translator>typh (da)</NS1:translator>
+    <NS1:translator>Team erweiterungen.de (de)</NS1:translator>
+    <NS1:translator>Grg68 (el)</NS1:translator>
+    <NS1:translator>Chuzo (es-ES)</NS1:translator>
+    <NS1:translator>Tael_ (fr)</NS1:translator>
+    <NS1:translator>XTR (he)</NS1:translator>
+    <NS1:translator>Sincic (hr)</NS1:translator>
+    <NS1:translator>Mikes Kaszmán István (hu)</NS1:translator>
+    <NS1:translator>Drry (ja)</NS1:translator>
+    <NS1:translator>Ivan Jonoski (mk)</NS1:translator>
+    <NS1:translator>Markh (nl)</NS1:translator>
+    <NS1:translator>Leszek(teo)Życzkowski (pl)</NS1:translator>
+    <NS1:translator>humbertosartini (pt-BR)</NS1:translator>
+    <NS1:translator>lloco (pt-PT)</NS1:translator>
+    <NS1:translator>TLemur (ru)</NS1:translator>
+    <NS1:translator>DakSrbija (sr)</NS1:translator>
+    <NS1:translator>Lakrits (sv-SE)</NS1:translator>
+    <NS1:translator>mrtcvk (tr)</NS1:translator>
+    <NS1:translator>Sappa (uk)</NS1:translator>
+    <NS1:translator>Xmoke (zh-CN)</NS1:translator>
+    <NS1:translator>Tspranjna (zh-TW)</NS1:translator>
+    <NS1:targetApplication RDF:resource="rdf:#$a7xoU3"/>
+    <NS1:targetApplication RDF:resource="rdf:#$b7xoU3"/>
+    <NS1:targetApplication RDF:resource="rdf:#$c7xoU3"/>
+    <NS1:targetApplication RDF:resource="rdf:#$d7xoU3"/>
+  </RDF:Description>
+  <RDF:Description RDF:about="rdf:#$L.woU3"
+                   NS1:id="{a79fe89b-6662-4ff4-8e88-09950ad4dfde}"
+                   NS1:minVersion="0.1"
+                   NS1:maxVersion="100.0" />
+  <RDF:Description RDF:about="rdf:#$HeQbQ2"
+                   NS1:id="{92650c4d-4b8e-4d2a-b7eb-24ecf4f6b63a}"
+                   NS1:minVersion="2.0"
+                   NS1:maxVersion="2.4.*" />
+  <RDF:Description RDF:about="rdf:#$M9xoU3"
+                   NS1:locale="nl-NL"
+                   NS1:name="Live HTTP headers"
+                   NS1:description="Bekijk de HTTP headers van een pagina tijdens het surfen." />
+  <RDF:Description RDF:about="rdf:#$27xoU3"
+                   NS1:locale="pt-BR"
+                   NS1:name="Tab Counter"
+                   NS1:description="Contabiliza o número de abas abertas."
+                   NS1:creator="Morac"
+                   NS1:translator="humbertosartini (pt-BR)"
+                   NS1:contributor="Jonathon Merz" />
+  <RDF:Description RDF:about="rdf:#$O.woU3"
+                   NS1:id="prism@developer.mozilla.org"
+                   NS1:minVersion="1.0b1"
+                   NS1:maxVersion="1.0.*" />
+  <RDF:Description RDF:about="rdf:#$C.woU3"
+                   NS1:locale="sq"
+                   NS1:name="Adblock Plus"
+                   NS1:description="Reklamat jane e kaluara!"
+                   NS1:creator="Wladimir Palant"
+                   NS1:homepageURL="http://adblockplus.org/" />
+  <RDF:Description RDF:about="urn:mozilla:item:foxmarks@kei.com"
+                   NS1:installLocation="app-profile"
+                   NS1:version="4.0.2"
+                   NS1:optionsURL="chrome://foxmarks/content/foxmarks-dialog.xul"
+                   NS1:iconURL="chrome://foxmarks/skin/images/foxmarks.ico"
+                   NS1:name="Xmarks"
+                   NS1:description="Bookmark Sync and Web Discovery"
+                   NS1:creator="Todd Agulnick"
+                   NS1:homepageURL="http://www.xmarks.com/"
+                   NS1:developer="LastPass">
+    <NS1:type NC:parseType="Integer">2</NS1:type>
+    <NS1:targetApplication RDF:resource="rdf:#$qcxoU3"/>
+    <NS1:targetApplication RDF:resource="rdf:#$rcxoU3"/>
+  </RDF:Description>
+  <RDF:Description RDF:about="rdf:#$q.woU3"
+                   NS1:locale="ko"
+                   NS1:name="Adblock Plus"
+                   NS1:description="콘텐츠 이용을 방해하고 불건전한 광고, 이제 안녕!"
+                   NS1:creator="Wladimir Palant"
+                   NS1:homepageURL="http://adblockplus.org/ko/" />
+  <RDF:Description RDF:about="rdf:#$67xoU3"
+                   NS1:locale="tr"
+                   NS1:name="Tab Counter"
+                   NS1:description="Açık Sekmeleri sayısını sayar"
+                   NS1:creator="Morac"
+                   NS1:translator="mrtcvk (tr)"
+                   NS1:contributor="Jonathon Merz" />
+  <RDF:Description RDF:about="rdf:#$W6xoU3"
+                   NS1:locale="fr"
+                   NS1:name="Tab Counter"
+                   NS1:description="Compte le nombre d'onglets ouverts."
+                   NS1:creator="Morac"
+                   NS1:translator="Tael_ (fr)"
+                   NS1:contributor="Jonathon Merz" />
+  <RDF:Description RDF:about="rdf:#$l1QbQ2"
+                   NS1:id="toolkit@mozilla.org"
+                   NS1:minVersion="1.9.0.5"
+                   NS1:maxVersion="2.0.*" />
+  <RDF:Description RDF:about="rdf:#$+6xoU3"
+                   NS1:locale="mk"
+                   NS1:name="Tab Counter"
+                   NS1:description="Го пресметува бројот на отворени јазичиња."
+                   NS1:creator="Morac"
+                   NS1:translator="Ivan Jonoski (mk)"
+                   NS1:contributor="Jonathon Merz" />
+  <RDF:Description RDF:about="urn:mozilla:item:es-MX@dictionaries.addons.mozilla.org"
+                   NS1:installLocation="app-profile"
+                   NS1:version="1.1.2"
+                   NS1:name="Diccionario español Mexico">
+    <NS1:type NC:parseType="Integer">2</NS1:type>
+    <NS1:targetApplication RDF:resource="rdf:#$A2xoU3"/>
+    <NS1:targetApplication RDF:resource="rdf:#$B2xoU3"/>
+    <NS1:targetApplication RDF:resource="rdf:#$C2xoU3"/>
+    <NS1:targetApplication RDF:resource="rdf:#$D2xoU3"/>
+    <NS1:targetApplication RDF:resource="rdf:#$E2xoU3"/>
+    <NS1:targetApplication RDF:resource="rdf:#$F2xoU3"/>
+  </RDF:Description>
+  <RDF:Description RDF:about="rdf:#$9gQbQ2"
+                   NS1:id="{ec8030f7-c20a-464f-9b0e-13a3a9e97384}"
+                   NS1:minVersion="3.0"
+                   NS1:maxVersion="3.6.*" />
+  <RDF:Description RDF:about="rdf:#$r3xoU3"
+                   NS1:id="{ec8030f7-c20a-464f-9b0e-13a3a9e97384}"
+                   NS1:minVersion="3.6"
+                   NS1:maxVersion="4.0b8pre" />
+  <RDF:Description RDF:about="rdf:#$B4QbQ2"
+                   NS1:id="toolkit@mozilla.org"
+                   NS1:minVersion="1.9.0.*"
+                   NS1:maxVersion="8.0a1" />
+  <RDF:Description RDF:about="rdf:#$hcxoU3"
+                   NS1:id="{3550f703-e582-4d05-9a08-453d09bdfdc6}"
+                   NS1:minVersion="2.0a1"
+                   NS1:maxVersion="7.*" />
+  <RDF:Description RDF:about="rdf:#$F2xoU3"
+                   NS1:id="{a23983c0-fd0e-11dc-95ff-0800200c9a66}"
+                   NS1:minVersion="0.1"
+                   NS1:maxVersion="1.0.*" />
+  <RDF:Description RDF:about="rdf:#$sSwoU3"
+                   NS1:id="dlm@emusic.com"
+                   NS1:minVersion="1.0a4"
+                   NS1:maxVersion="1.0.0.*" />
+  <RDF:Description RDF:about="urn:mozilla:item:SkipScreen@SkipScreen"
+                   NS1:installLocation="app-profile"
+                   NS1:version="0.6.1.2"
+                   NS1:optionsURL="chrome://SkipScreen/content/options.xul"
+                   NS1:aboutURL="chrome://SkipScreen/content/about.xul"
+                   NS1:iconURL="chrome://SkipScreen/content/icon32.png"
+                   NS1:name="SkipScreen"
+                   NS1:creator="http://skipscreen.com/"
+                   NS1:homepageURL="http://skipscreen.com/">
+    <NS1:type NC:parseType="Integer">2</NS1:type>
+    <NS1:description>Skips unnecessary pages on sites like Rapidshare, Megaupload, zShare, Mediafire, and more.
+    Wherever there are unnecessary pages and superfluous links, Skipscreen will be there.</NS1:description>
+    <NS1:contributor>Michael Paulukonis (http://www.xradiograph.com/)</NS1:contributor>
+    <NS1:contributor>Ben Beadle (http://www.benbeadle.com/)</NS1:contributor>
+    <NS1:contributor>Worcester, LLC (http://worcesterllc.com/)</NS1:contributor>
+    <NS1:contributor>Greasemonkey Compiler by Anthony Lieuallen (http://arantius.com/)</NS1:contributor>
+    <NS1:targetApplication RDF:resource="rdf:#$d+woU3"/>
+    <NS1:targetApplication RDF:resource="rdf:#$e+woU3"/>
+  </RDF:Description>
+  <RDF:Description RDF:about="rdf:#$d+woU3"
+                   NS1:id="{ec8030f7-c20a-464f-9b0e-13a3a9e97384}"
+                   NS1:minVersion="3.0"
+                   NS1:maxVersion="6.*" />
+  <RDF:Description RDF:about="rdf:#$F9xoU3"
+                   NS1:locale="da-DK"
+                   NS1:name="Live HTTP headers"
+                   NS1:description="Se HTTP headere for en side og imens man surfer." />
+  <RDF:Description RDF:about="urn:mozilla:item:nasanightlaunch@example.com"
+                   NS1:installLocation="app-profile"
+                   NS1:version="0.6.20110904"
+                   NS1:internalName="nasanightlaunch"
+                   NS1:name="NASA Night Launch"
+                   NS1:description="Dark theme for Firefox.  Inspired by the night launch of STS-116."
+                   NS1:creator="The Night Launch Team"
+                   NS1:homepageURL="http://forums.mozillazine.org/viewtopic.php?t=547498">
+    <NS1:type NC:parseType="Integer">4</NS1:type>
+    <NS1:contributor>Disclaimer: This theme is not officially endorsed by or affiliated with NASA.  We just love what they do.</NS1:contributor>
+    <NS1:contributor>DMCrimson, for Mac OS X testing and for generally great ideas</NS1:contributor>
+    <NS1:contributor>Creators of mtv.com (Flash version), the awesome blackness of which inspired much of this theme</NS1:contributor>
+    <NS1:contributor>Flyson, Anders Conbere, and DonGato (creators of Breeze/Whitehart) for inspiration for many icon shapes</NS1:contributor>
+    <NS1:contributor>Alex W (creator of Charamel) for the shape of the search wrap icon</NS1:contributor>
+    <NS1:contributor>Sailfish for showing how to use bindings for theme-specific subskins</NS1:contributor>
+    <NS1:contributor>Aaron, alanjstr, CatThief, Ed Hume, Greg S, Sailfish, ShareBird and others for answering endless newbie questions</NS1:contributor>
+    <NS1:contributor>Cato62, for detailed testing with extensions</NS1:contributor>
+    <NS1:contributor>The creators of the Fx1.5, Fx2.0, Fx3.0, Fx3.5, Fx3.6 and Fx4 default themes, from which several icons were copied directly</NS1:contributor>
+    <NS1:targetApplication RDF:resource="rdf:#$3bxoU3"/>
+    <NS1:targetApplication RDF:resource="rdf:#$4bxoU3"/>
+  </RDF:Description>
+  <RDF:Description RDF:about="rdf:#$v.woU3"
+                   NS1:locale="pl"
+                   NS1:name="Adblock Plus"
+                   NS1:description="Powiedz NIE! reklamom"
+                   NS1:creator="Wladimir Palant"
+                   NS1:homepageURL="http://adblockplus.org/" />
+  <RDF:Description RDF:about="rdf:#$j.woU3"
+                   NS1:locale="hsb-DE"
+                   NS1:name="Adblock Plus"
+                   NS1:description="Reklama bě wčera!"
+                   NS1:creator="Wladimir Palant"
+                   NS1:homepageURL="http://adblockplus.org/" />
+  <RDF:Description RDF:about="rdf:#$7.woU3"
+                   NS1:locale="eo"
+                   NS1:name="Adblock Plus"
+                   NS1:description="Anoncoj estis hieraŭ!"
+                   NS1:creator="Wladimir Palant"
+                   NS1:homepageURL="http://adblockplus.org/" />
+  <RDF:Description RDF:about="rdf:#$b7xoU3"
+                   NS1:id="{a463f10c-3994-11da-9945-000d60ca027b}"
+                   NS1:minVersion="0.8"
+                   NS1:maxVersion="3.*.*" />
+  <RDF:Description RDF:about="rdf:#$P9xoU3"
+                   NS1:id="{a463f10c-3994-11da-9945-000d60ca027b}"
+                   NS1:minVersion="0.5.9"
+                   NS1:maxVersion="0.7.*" />
+  <RDF:Description RDF:about="rdf:#$k.woU3"
+                   NS1:locale="hu"
+                   NS1:name="Adblock Plus"
+                   NS1:description="A reklám a múlté!"
+                   NS1:creator="Wladimir Palant"
+                   NS1:homepageURL="http://adblockplus.org/" />
+  <RDF:Description RDF:about="rdf:#$.4QbQ2"
+                   NS1:id="{a463f10c-3994-11da-9945-000d60ca027b}"
+                   NS1:minVersion="1.0"
+                   NS1:maxVersion="2.6.*" />
+  <RDF:Description RDF:about="urn:mozilla:item:firecookie@janodvarko.cz"
+                   NS1:installLocation="app-profile"
+                   NS1:userDisabled="true"
+                   NS1:version="1.3"
+                   NS1:iconURL="chrome://firecookie/skin/cookie32.png"
+                   NS1:name="Firecookie"
+                   NS1:description="Cookie manager for Firebug. Firebug has to be installed in order to use this extension."
+                   NS1:creator="Jan Odvarko"
+                   NS1:homepageURL="http://www.janodvarko.cz/firecookie">
+    <NS1:type NC:parseType="Integer">2</NS1:type>
+    <NS1:translator>Leszek Życzkowski (pl-PL)</NS1:translator>
+    <NS1:translator>CosmicForce (de-De)</NS1:translator>
+    <NS1:translator>Alberto Eidh (pt-BR)</NS1:translator>
+    <NS1:translator>Efecan Erdur (tr-TR)</NS1:translator>
+    <NS1:translator>Lukáš Kucharczyk (cs-CZ)</NS1:translator>
+    <NS1:translator>delphine (fr-FR)</NS1:translator>
+    <NS1:translator>Johnbo (es-ES)</NS1:translator>
+    <NS1:translator>Hisateru Tanaka (ja-JP)</NS1:translator>
+    <NS1:translator>Dark Preacher (ru-RU)</NS1:translator>
+    <NS1:translator>alexxed (ro-RO)</NS1:translator>
+    <NS1:translator>Hector Zhao (zh-CN)</NS1:translator>
+    <NS1:translator>gLes (hu-HU)</NS1:translator>
+    <NS1:translator>eternoendless (es-AR)</NS1:translator>
+    <NS1:translator>Andriy Zhouck (uk-UA)</NS1:translator>
+    <NS1:translator>l0stintranslation (it-IT)</NS1:translator>
+    <NS1:translator>peter3 (sv-SE)</NS1:translator>
+    <NS1:translator>markh (nl-NL)</NS1:translator>
+    <NS1:translator>Sewon Kim (ko-KR)</NS1:translator>
+    <NS1:translator>bootleq (zh-TW)</NS1:translator>
+    <NS1:contributor>Aleksandar Gajic (cookie icon)</NS1:contributor>
+    <NS1:contributor>Leszek(teo)Życzkowski</NS1:contributor>
+    <NS1:contributor>James Olsen</NS1:contributor>
+    <NS1:targetApplication RDF:resource="rdf:#$B4QbQ2"/>
+    <NS1:targetApplication RDF:resource="rdf:#$C4QbQ2"/>
+  </RDF:Description>
+  <RDF:Description RDF:about="rdf:#$H.woU3"
+                   NS1:locale="uk"
+                   NS1:name="Adblock Plus"
+                   NS1:description="Скажи «НІ» рекламі!"
+                   NS1:creator="Wladimir Palant"
+                   NS1:homepageURL="http://adblockplus.org/" />
+  <RDF:Description RDF:about="rdf:#$V3QbQ2"
+                   NS1:id="{ec8030f7-c20a-464f-9b0e-13a3a9e97384}"
+                   NS1:minVersion="3.0"
+                   NS1:maxVersion="8.*" />
+  <RDF:Description RDF:about="rdf:#$B6QbQ2"
+                   NS1:id="{ec8030f7-c20a-464f-9b0e-13a3a9e97384}"
+                   NS1:minVersion="3.0"
+                   NS1:maxVersion="4.0.*" />
+  <RDF:Description RDF:about="rdf:#$DbxoU3"
+                   NS1:id="{ec8030f7-c20a-464f-9b0e-13a3a9e97384}"
+                   NS1:minVersion="1.0"
+                   NS1:maxVersion="4.0.*" />
+  <RDF:Description RDF:about="urn:mozilla:item:{3e9bb2a7-62ca-4efa-a4e6-f6f6168a652d}"
+                   NS1:installLocation="app-profile"
+                   NS1:userDisabled="true"
+                   NS1:version="1.0"
+                   NS1:optionsURL="chrome://ipv6ident/content/ipv6ident-pref.xul"
+                   NS1:name="ShowIP"
+                   NS1:description="Show the IP address of the current page in the status bar. It also allows querying custom services by IP (right mouse button) and Hostname (left mouse button), like whois, netcraft. Additionally you can copy the IP address to the clipboard. This extension was formerly known as ipv6ident. License GPLv2 only."
+                   NS1:creator="Jan Dittmer"
+                   NS1:homepageURL="http://code.google.com/p/firefox-showip/">
+    <NS1:type NC:parseType="Integer">2</NS1:type>
+    <NS1:localized RDF:resource="rdf:#$U3QbQ2"/>
+    <NS1:targetApplication RDF:resource="rdf:#$V3QbQ2"/>
+    <NS1:targetApplication RDF:resource="rdf:#$W3QbQ2"/>
+    <NS1:targetApplication RDF:resource="rdf:#$X3QbQ2"/>
+    <NS1:targetApplication RDF:resource="rdf:#$Y3QbQ2"/>
+  </RDF:Description>
+  <RDF:Description RDF:about="rdf:#$K9xoU3"
+                   NS1:locale="hu-HU"
+                   NS1:name="HTTP kérések fejlécei"
+                   NS1:description="View HTTP headers of a page and while browsing." />
+  <RDF:Description RDF:about="urn:mozilla:item:{6AC85730-7D0F-4de0-B3FA-21142DD85326}"
+                   NS1:installLocation="app-profile"
+                   NS1:userDisabled="true"
+                   NS1:version="2.6.2"
+                   NS1:optionsURL="chrome://colorzilla/content/about.xul"
+                   NS1:aboutURL="chrome://colorzilla/content/about.xul"
+                   NS1:iconURL="chrome://colorzilla/skin/logo.png"
+                   NS1:name="ColorZilla"
+                   NS1:description="Advanced Eyedropper, ColorPicker, Page Zoomer and other colorful goodies"
+                   NS1:creator="Alex Sirota"
+                   NS1:homepageURL="http://www.colorzilla.com/">
+    <NS1:type NC:parseType="Integer">2</NS1:type>
+    <NS1:contributor>Fernando Pereira Silveira (Portuguese translation)</NS1:contributor>
+    <NS1:contributor>Jojaba (French translation)</NS1:contributor>
+    <NS1:contributor>Tomas Brabenec (Czech translation)</NS1:contributor>
+    <NS1:contributor>Norah Marinkovic (Japanese translation)</NS1:contributor>
+    <NS1:contributor>Reiner Hess (German translation)</NS1:contributor>
+    <NS1:contributor>Wladow (Slovak translation)</NS1:contributor>
+    <NS1:contributor>Jakub Bobrowski (Polish translation)</NS1:contributor>
+    <NS1:contributor>Erkan Kaplan (Turkish translation)</NS1:contributor>
+    <NS1:contributor>The BabelZilla Team (babelzilla.org)</NS1:contributor>
+    <NS1:targetApplication RDF:resource="rdf:#$A4ouO1"/>
+    <NS1:targetApplication RDF:resource="rdf:#$B4ouO1"/>
+  </RDF:Description>
+  <RDF:Description RDF:about="rdf:#$X6xoU3"
+                   NS1:locale="he"
+                   NS1:name="Tab Counter"
+                   NS1:description="סופר את מספר הטאבים הפתוחים"
+                   NS1:creator="Morac"
+                   NS1:translator="XTR (he)"
+                   NS1:contributor="Jonathon Merz" />
+  <RDF:Description RDF:about="rdf:#$M.woU3"
+                   NS1:id="{a23983c0-fd0e-11dc-95ff-0800200c9a66}"
+                   NS1:minVersion="1.1"
+                   NS1:maxVersion="9.0a1" />
+  <RDF:Description RDF:about="rdf:#$98QbQ2"
+                   NS1:id="{ec8030f7-c20a-464f-9b0e-13a3a9e97384}"
+                   NS1:minVersion="1.5"
+                   NS1:maxVersion="8.*" />
+  <RDF:Description RDF:about="rdf:#$o.woU3"
+                   NS1:locale="ja"
+                   NS1:name="Adblock Plus"
+                   NS1:description="広告があったのは過去の話です！"
+                   NS1:creator="Wladimir Palant"
+                   NS1:homepageURL="http://adblockplus.org/" />
+  <RDF:Description RDF:about="rdf:#$c.woU3"
+                   NS1:locale="fa"
+                   NS1:name="فوق تبلیغ شکن"
+                   NS1:description="تبلیغت متعلق به دیروز بود!"
+                   NS1:creator="Wladimir Palant"
+                   NS1:homepageURL="http://adblockplus.org/" />
+  <RDF:Description RDF:about="rdf:#$A4ouO1"
+                   NS1:id="{ec8030f7-c20a-464f-9b0e-13a3a9e97384}"
+                   NS1:minVersion="3.0"
+                   NS1:maxVersion="10.0a1" />
+  <RDF:Description RDF:about="rdf:#$0.woU3"
+                   NS1:locale="ca"
+                   NS1:name="Adblock Plus"
+                   NS1:description="Els anuncis eren ahir"
+                   NS1:creator="Wladimir Palant"
+                   NS1:homepageURL="http://adblockplus.org/" />
+  <RDF:Description RDF:about="rdf:#$47xoU3"
+                   NS1:locale="ru"
+                   NS1:name="Tab Counter"
+                   NS1:description="Считает, сколько открыто вкладок"
+                   NS1:creator="Morac"
+                   NS1:translator="TLemur (ru)"
+                   NS1:contributor="Jonathon Merz" />
+  <RDF:Description RDF:about="rdf:#$U6xoU3"
+                   NS1:locale="el"
+                   NS1:name="Tab Counter"
+                   NS1:description="Μετράει τον αριθμό ανοικτών καρτελών"
+                   NS1:creator="Morac"
+                   NS1:translator="Grg68 (el)"
+                   NS1:contributor="Jonathon Merz" />
+  <RDF:Description RDF:about="rdf:#$L9xoU3"
+                   NS1:locale="ja-JP"
+                   NS1:name="Live HTTP headers"
+                   NS1:description="ウェブページとブラウジング中の HTTP ヘッダを表示します。" />
+  <RDF:Description RDF:about="urn:mozilla:item:externalip@erik.morlin"
+                   NS1:installLocation="app-profile"
+                   NS1:userDisabled="true"
+                   NS1:version="0.9.9.6"
+                   NS1:name="external IP"
+                   NS1:description="Shows your current external IP address"
+                   NS1:creator="Erik Morlin"
+                   NS1:homepageURL="http://www.ermodev.se/visa_firefoxExtensions.htm">
+    <NS1:type NC:parseType="Integer">2</NS1:type>
+    <NS1:targetApplication RDF:resource="rdf:#$98QbQ2"/>
+  </RDF:Description>
+  <RDF:Description RDF:about="rdf:#$Q7xoU3"
+                   NS1:id="{ec8030f7-c20a-464f-9b0e-13a3a9e97384}"
+                   NS1:minVersion="3.6"
+                   NS1:maxVersion="7.*" />
+  <RDF:Description RDF:about="rdf:#$33xoU3"
+                   NS1:id="{ec8030f7-c20a-464f-9b0e-13a3a9e97384}"
+                   NS1:minVersion="3.0"
+                   NS1:maxVersion="4.0b3pre" />
+  <RDF:Description RDF:about="rdf:#$qcxoU3"
+                   NS1:id="{ec8030f7-c20a-464f-9b0e-13a3a9e97384}"
+                   NS1:minVersion="3.0"
+                   NS1:maxVersion="8.0a1" />
+  <RDF:Description RDF:about="rdf:#$b.woU3"
+                   NS1:locale="et"
+                   NS1:name="Adblock Plus"
+                   NS1:description="Reklaamid on nüüd eilne päev!"
+                   NS1:creator="Wladimir Palant"
+                   NS1:homepageURL="http://adblockplus.org/" />
+  <RDF:Description RDF:about="rdf:#$qSwoU3"
+                   NS1:id="{92650c4d-4b8e-4d2a-b7eb-24ecf4f6b63a}"
+                   NS1:minVersion="2.0"
+                   NS1:maxVersion="2.7a1" />
+  <RDF:Description RDF:about="rdf:#$z0QbQ2"
+                   NS1:id="{ec8030f7-c20a-464f-9b0e-13a3a9e97384}"
+                   NS1:minVersion="2.0"
+                   NS1:maxVersion="3.1b3" />
+  <RDF:Description RDF:about="rdf:#$p.woU3"
+                   NS1:locale="kk-KZ"
+                   NS1:name="Adblock Plus"
+                   NS1:description="Жарнамаға жол жоқ!"
+                   NS1:creator="Wladimir Palant"
+                   NS1:homepageURL="http://adblockplus.org/" />
+  <RDF:Description RDF:about="urn:mozilla:item:selectbug@getfirebug.com"
+                   NS1:installLocation="app-profile"
+                   NS1:version="0.1a2"
+                   NS1:updateURL="https://getfirebug.com/releases/selectbug/1.5/update.rdf"
+                   NS1:name="selectbug"
+                   NS1:description="CSS selectors sidepanel for Firebug."
+                   NS1:creator="John J. Barton"
+                   NS1:homepageURL="http://getfirebug.com/releases/extensions.html#selectbug"
+                   NS1:contributor="Jan Odvarko">
+    <NS1:type NC:parseType="Integer">2</NS1:type>
+    <NS1:targetApplication RDF:resource="rdf:#$ZfQbQ2"/>
+  </RDF:Description>
+  <RDF:Description RDF:about="urn:mozilla:item:{c45c406e-ab73-11d8-be73-000a95be3b12}"
+                   NS1:installLocation="app-profile"
+                   NS1:version="1.1.9"
+                   NS1:optionsURL="chrome://webdeveloper/content/options/options.xul"
+                   NS1:aboutURL="chrome://webdeveloper/content/about/about.xul"
+                   NS1:iconURL="chrome://webdeveloper/content/images/logo/large.png"
+                   NS1:name="Web Developer"
+                   NS1:description="Adds a menu and a toolbar with various web developer tools."
+                   NS1:creator="Chris Pederick"
+                   NS1:homepageURL="http://chrispederick.com/work/web-developer/">
+    <NS1:type NC:parseType="Integer">2</NS1:type>
+    <NS1:targetApplication RDF:resource="rdf:#$01xoU3"/>
+    <NS1:targetApplication RDF:resource="rdf:#$11xoU3"/>
+    <NS1:targetApplication RDF:resource="rdf:#$21xoU3"/>
+  </RDF:Description>
+  <RDF:Description RDF:about="rdf:#$R.woU3"
+                   NS1:id="{3550f703-e582-4d05-9a08-453d09bdfdc6}"
+                   NS1:minVersion="3.0"
+                   NS1:maxVersion="9.0a1" />
+  <RDF:Description RDF:about="rdf:#$F.woU3"
+                   NS1:locale="th"
+                   NS1:name="Adblock Plus"
+                   NS1:description="ลาก่อนพวกโฆษณา!"
+                   NS1:creator="Wladimir Palant"
+                   NS1:homepageURL="http://adblockplus.org/" />
+  <RDF:Description RDF:about="rdf:#$t.woU3"
+                   NS1:locale="ms-MY"
+                   NS1:name="Adblock Plus"
+                   NS1:description="Iklan hanyalah zaman dulu!"
+                   NS1:creator="Wladimir Palant"
+                   NS1:homepageURL="http://adblockplus.org/" />
+  <RDF:Description RDF:about="rdf:#$h.woU3"
+                   NS1:locale="he"
+                   NS1:name="Adblock Plus"
+                   NS1:description="הפרסומות שייכות לעבר!"
+                   NS1:creator="Wladimir Palant"
+                   NS1:homepageURL="http://adblockplus.org/he/" />
+  <RDF:Description RDF:about="rdf:#$Y3QbQ2"
+                   NS1:id="{3550f703-e582-4d05-9a08-453d09bdfdc6}"
+                   NS1:minVersion="1.0"
+                   NS1:maxVersion="3.0.*" />
+  <RDF:Description RDF:about="rdf:#$5.woU3"
+                   NS1:locale="en-GB"
+                   NS1:name="Adblock Plus"
+                   NS1:description="Ads were yesterday!"
+                   NS1:creator="Wladimir Palant"
+                   NS1:homepageURL="http://adblockplus.org/en/" />
+  <RDF:Description RDF:about="rdf:#$97xoU3"
+                   NS1:locale="zh-TW"
+                   NS1:name="Tab Counter"
+                   NS1:description="顯示視窗開啟分頁數"
+                   NS1:creator="Morac"
+                   NS1:translator="Tspranjna (zh-TW)"
+                   NS1:contributor="Jonathon Merz" />
+  <RDF:Description RDF:about="rdf:#$Z6xoU3"
+                   NS1:locale="hu"
+                   NS1:name="Tab Counter"
+                   NS1:description="Megnyitott lapok számának megjelenítése"
+                   NS1:creator="Morac"
+                   NS1:translator="Mikes Kaszmán István (hu)"
+                   NS1:contributor="Jonathon Merz" />
+  <RDF:Description RDF:about="rdf:#$2.woU3"
+                   NS1:locale="da"
+                   NS1:name="Adblock Plus"
+                   NS1:description="Reklamer er fortid!"
+                   NS1:creator="Wladimir Palant"
+                   NS1:homepageURL="http://adblockplus.org/" />
+  <RDF:Description RDF:about="rdf:#$Q.woU3"
+                   NS1:id="songbird@songbirdnest.com"
+                   NS1:minVersion="1.9.0a"
+                   NS1:maxVersion="1.11.0a" />
+  <RDF:Description RDF:about="rdf:#$rGDxE"
+                   NS1:id="{ec8030f7-c20a-464f-9b0e-13a3a9e97384}"
+                   NS1:minVersion="2.0"
+                   NS1:maxVersion="8.*" />
+  <RDF:Description RDF:about="urn:mozilla:item:{73a6fe31-595d-460b-a920-fcc0f8843232}"
+                   NS1:installLocation="app-profile"
+                   NS1:version="2.1.8"
+                   NS1:optionsURL="chrome://noscript/content/noscriptOptions.xul"
+                   NS1:aboutURL="chrome://noscript/content/about.xul"
+                   NS1:iconURL="chrome://noscript/skin/icon32.png"
+                   NS1:name="NoScript"
+                   NS1:description="Extra protection for your Firefox: NoScript allows JavaScript, Java (and other plugins) only for trusted domains of your choice (e.g. your home-banking web site). This whitelist based pre-emptive blocking approach  prevents exploitation of security vulnerabilities (known and even unknown!) with no loss of functionality... Experts will agree: Firefox is really safer with NoScript :-)"
+                   NS1:creator="Giorgio Maone"
+                   NS1:homepageURL="http://noscript.net">
+    <NS1:type NC:parseType="Integer">2</NS1:type>
+    <NS1:contributor>Alberto Martínez, EduLeo &amp; Urko (Spanish translation)</NS1:contributor>
+    <NS1:contributor>aivo (Estonian translation)</NS1:contributor>
+    <NS1:contributor>Asaf Bartov (Hebrew translation)</NS1:contributor>
+    <NS1:contributor>Alf and Liesbeth (Dutch translation)</NS1:contributor>
+    <NS1:contributor>Alexander Sokolov and Sergei Smirnov (Russian translation)</NS1:contributor>
+    <NS1:contributor>Batuhan Çetin and eveterinary (Turkish translation)</NS1:contributor>
+    <NS1:contributor>Baurzhan Muftakhidinov (Kazakh translation)</NS1:contributor>
+    <NS1:contributor>Beerboy (Japanese translation)</NS1:contributor>
+    <NS1:contributor>Carsten Winkler (Danish translation)</NS1:contributor>
+    <NS1:contributor>Chiou Po-Jung (Chinese Traditional translation)</NS1:contributor>
+    <NS1:contributor>Dario Ornelas (Portuguese translation)</NS1:contributor>
+    <NS1:contributor>drAcOniS and Petr Jirsa (Czech translation)</NS1:contributor>
+    <NS1:contributor>Drive DRKA (Belarusian translation)</NS1:contributor>
+    <NS1:contributor>Engin Yazılan, Erkan Kaplan &amp; Fathi  (Turkish translation)</NS1:contributor>
+    <NS1:contributor>X.F Mao &amp; George C. Tsoi (Simplified Chinese)</NS1:contributor>
+    <NS1:contributor>Georgi Marchev (Bulgarian translation)</NS1:contributor>
+    <NS1:contributor>Håvard Mork (Norwegian bokmål translation)</NS1:contributor>
+    <NS1:contributor>Hwasung Kim (Places bookmarklet patch)</NS1:contributor>
+    <NS1:contributor>Ivan Pesic, dragan021 (Serbian translation)</NS1:contributor>
+    <NS1:contributor>Ivan Jonoski (Macedonian translation)</NS1:contributor>
+    <NS1:contributor>Jameka (Swedish translation)</NS1:contributor>
+    <NS1:contributor>Joan-Josep Bargues (Catalan translation)</NS1:contributor>
+    <NS1:contributor>Joshua Issac (Malay translation)</NS1:contributor>
+    <NS1:contributor>Khaled Hosny &amp; Nassim Dhaher (Arabic translation)</NS1:contributor>
+    <NS1:contributor>Krcko (Croatian translation)</NS1:contributor>
+    <NS1:contributor>Ian Moody (English GB translation)</NS1:contributor>
+    <NS1:contributor>LocaLiceR (Hungarian translation)</NS1:contributor>
+    <NS1:contributor>Lukasz Biegaj &amp; Teo (Polish translation)</NS1:contributor>
+    <NS1:contributor>Michela Venuto (inspiration)</NS1:contributor>
+    <NS1:contributor>Mika Pirinen (Finnish translation)</NS1:contributor>
+    <NS1:contributor>Mindaugas Jakutis (Lithuanian translation)</NS1:contributor>
+    <NS1:contributor>Mikes Kaszmán István (Hungarian translation)</NS1:contributor>
+    <NS1:contributor>MozUA (Ukrainian translation)</NS1:contributor>
+    <NS1:contributor>Pedram Veisi (Persian translation)</NS1:contributor>
+    <NS1:contributor>Peter Bradley (Welsh translation)</NS1:contributor>
+    <NS1:contributor>Raryel Costa Souza (Brazilian Portuguese)</NS1:contributor>
+    <NS1:contributor>regfreak (Indonesian translation)</NS1:contributor>
+    <NS1:contributor>roebek (Galician translation)</NS1:contributor>
+    <NS1:contributor>Qen (Thai translation)</NS1:contributor>
+    <NS1:contributor>seaousak (Korean translation)</NS1:contributor>
+    <NS1:contributor>SlovakSoft (Slovak translation)</NS1:contributor>
+    <NS1:contributor>Sonickydon (Greek translation)</NS1:contributor>
+    <NS1:contributor>Stiepan A. Kovac (Croatian translation)</NS1:contributor>
+    <NS1:contributor>swarnava (Bengali translation)</NS1:contributor>
+    <NS1:contributor>Tomaz Macus (Slovenian translation)</NS1:contributor>
+    <NS1:contributor>Thomas Weber &amp; Volker Hable (German translation)</NS1:contributor>
+    <NS1:contributor>tonynguyen and loveleeyoungae (Vietnamese translation)</NS1:contributor>
+    <NS1:contributor>x10firefox and Ultravioletu (Romanian translation)</NS1:contributor>
+    <NS1:contributor>Xavier Robin (French translation)</NS1:contributor>
+    <NS1:targetApplication RDF:resource="rdf:#$oSwoU3"/>
+    <NS1:targetApplication RDF:resource="rdf:#$pSwoU3"/>
+    <NS1:targetApplication RDF:resource="rdf:#$qSwoU3"/>
+    <NS1:targetApplication RDF:resource="rdf:#$rSwoU3"/>
+    <NS1:targetApplication RDF:resource="rdf:#$sSwoU3"/>
+    <NS1:targetApplication RDF:resource="rdf:#$tSwoU3"/>
+    <NS1:targetApplication RDF:resource="rdf:#$uSwoU3"/>
+    <NS1:targetApplication RDF:resource="rdf:#$vSwoU3"/>
+  </RDF:Description>
+  <RDF:Description RDF:about="rdf:#$ASwoU3"
+                   NS1:id="{92650c4d-4b8e-4d2a-b7eb-24ecf4f6b63a}"
+                   NS1:minVersion="1.0"
+                   NS1:maxVersion="2.1a1pre" />
+  <RDF:Description RDF:about="rdf:#$kcxoU3"
+                   NS1:id="{718e30fb-e89b-41dd-9da7-e25a45638b28}"
+                   NS1:minVersion="1.0b1"
+                   NS1:maxVersion="5.0b2pre" />
+  <RDF:Description RDF:about="urn:mozilla:item:firediff@johnjbarton.com"
+                   NS1:installLocation="app-profile"
+                   NS1:version="1.1.4"
+                   NS1:name="FireDiff"
+                   NS1:description="Track Changes in Firebug"
+                   NS1:creator="John J. Barton"
+                   NS1:homepageURL="http://www.incaseofstairs.com/firediff"
+                   NS1:developer="Kevin Decker"
+                   NS1:contributor="Jan Odvarko">
+    <NS1:type NC:parseType="Integer">2</NS1:type>
+    <NS1:translator>erglo (de-DE)</NS1:translator>
+    <NS1:translator>edgard.magalhaes (pt-BR)</NS1:translator>
+    <NS1:targetApplication RDF:resource="rdf:#$KfQbQ2"/>
+  </RDF:Description>
+  <RDF:Description RDF:about="rdf:#$vSwoU3"
+                   NS1:id="{a23983c0-fd0e-11dc-95ff-0800200c9a66}"
+                   NS1:minVersion="1.0"
+                   NS1:maxVersion="2.0a1pre" />
+  <RDF:Description RDF:about="rdf:#$NcxoU3"
+                   NS1:id="{ec8030f7-c20a-464f-9b0e-13a3a9e97384}"
+                   NS1:minVersion="3.6"
+                   NS1:maxVersion="3.6.*" />
+  <RDF:Description RDF:about="rdf:#$57xoU3"
+                   NS1:locale="sr"
+                   NS1:name="Tab Counter"
+                   NS1:description="Броји колико има отворених језичака."
+                   NS1:creator="Morac"
+                   NS1:translator="DakSrbija (sr)"
+                   NS1:contributor="Jonathon Merz" />
+  <RDF:Description RDF:about="urn:mozilla:item:itsalltext@docwhat.gerf.org"
+                   NS1:installLocation="app-profile"
+                   NS1:userDisabled="true"
+                   NS1:version="1.6.3"
+                   NS1:optionsURL="chrome://itsalltext/content/preferences.xul"
+                   NS1:aboutURL="chrome://itsalltext/content/about.xul"
+                   NS1:iconURL="chrome://itsalltext/content/icon.png"
+                   NS1:name="It's All Text!"
+                   NS1:description="Edit text using your favorite editor!"
+                   NS1:creator="Christian Höltje"
+                   NS1:homepageURL="http://addons.mozilla.org/firefox/4125">
+    <NS1:type NC:parseType="Integer">2</NS1:type>
+    <NS1:targetApplication RDF:resource="rdf:#$GeQbQ2"/>
+    <NS1:targetApplication RDF:resource="rdf:#$HeQbQ2"/>
+  </RDF:Description>
+  <RDF:Description RDF:about="rdf:#$I9xoU3"
+                   NS1:locale="es-ES"
+                   NS1:name="Live HTTP headers"
+                   NS1:description="View HTTP headers of a page and while browsing." />
+  <RDF:Description RDF:about="urn:mozilla:item:{d10d0bf8-f5b5-c8b4-a8b2-2b9879e08c5d}"
+                   NS1:installLocation="app-profile"
+                   NS1:version="1.3.10"
+                   NS1:optionsURL="chrome://adblockplus/content/ui/settings.xul"
+                   NS1:aboutURL="chrome://adblockplus/content/ui/about.xul"
+                   NS1:iconURL="chrome://adblockplus/skin/adblockplus.png"
+                   NS1:name="Adblock Plus"
+                   NS1:description="Ads were yesterday!"
+                   NS1:creator="Wladimir Palant"
+                   NS1:homepageURL="http://adblockplus.org/">
+    <NS1:type NC:parseType="Integer">2</NS1:type>
+    <NS1:localized RDF:resource="rdf:#$.ZwoU3"/>
+    <NS1:localized RDF:resource="rdf:#$+ZwoU3"/>
+    <NS1:localized RDF:resource="rdf:#$0.woU3"/>
+    <NS1:localized RDF:resource="rdf:#$1.woU3"/>
+    <NS1:localized RDF:resource="rdf:#$2.woU3"/>
+    <NS1:localized RDF:resource="rdf:#$3.woU3"/>
+    <NS1:localized RDF:resource="rdf:#$4.woU3"/>
+    <NS1:localized RDF:resource="rdf:#$5.woU3"/>
+    <NS1:localized RDF:resource="rdf:#$6.woU3"/>
+    <NS1:localized RDF:resource="rdf:#$7.woU3"/>
+    <NS1:localized RDF:resource="rdf:#$8.woU3"/>
+    <NS1:localized RDF:resource="rdf:#$9.woU3"/>
+    <NS1:localized RDF:resource="rdf:#$a.woU3"/>
+    <NS1:localized RDF:resource="rdf:#$b.woU3"/>
+    <NS1:localized RDF:resource="rdf:#$c.woU3"/>
+    <NS1:localized RDF:resource="rdf:#$d.woU3"/>
+    <NS1:localized RDF:resource="rdf:#$e.woU3"/>
+    <NS1:localized RDF:resource="rdf:#$f.woU3"/>
+    <NS1:localized RDF:resource="rdf:#$g.woU3"/>
+    <NS1:localized RDF:resource="rdf:#$h.woU3"/>
+    <NS1:localized RDF:resource="rdf:#$i.woU3"/>
+    <NS1:localized RDF:resource="rdf:#$j.woU3"/>
+    <NS1:localized RDF:resource="rdf:#$k.woU3"/>
+    <NS1:localized RDF:resource="rdf:#$l.woU3"/>
+    <NS1:localized RDF:resource="rdf:#$m.woU3"/>
+    <NS1:localized RDF:resource="rdf:#$n.woU3"/>
+    <NS1:localized RDF:resource="rdf:#$o.woU3"/>
+    <NS1:localized RDF:resource="rdf:#$p.woU3"/>
+    <NS1:localized RDF:resource="rdf:#$q.woU3"/>
+    <NS1:localized RDF:resource="rdf:#$r.woU3"/>
+    <NS1:localized RDF:resource="rdf:#$s.woU3"/>
+    <NS1:localized RDF:resource="rdf:#$t.woU3"/>
+    <NS1:localized RDF:resource="rdf:#$u.woU3"/>
+    <NS1:localized RDF:resource="rdf:#$v.woU3"/>
+    <NS1:localized RDF:resource="rdf:#$w.woU3"/>
+    <NS1:localized RDF:resource="rdf:#$x.woU3"/>
+    <NS1:localized RDF:resource="rdf:#$y.woU3"/>
+    <NS1:localized RDF:resource="rdf:#$z.woU3"/>
+    <NS1:localized RDF:resource="rdf:#$A.woU3"/>
+    <NS1:localized RDF:resource="rdf:#$B.woU3"/>
+    <NS1:localized RDF:resource="rdf:#$C.woU3"/>
+    <NS1:localized RDF:resource="rdf:#$D.woU3"/>
+    <NS1:localized RDF:resource="rdf:#$E.woU3"/>
+    <NS1:localized RDF:resource="rdf:#$F.woU3"/>
+    <NS1:localized RDF:resource="rdf:#$G.woU3"/>
+    <NS1:localized RDF:resource="rdf:#$H.woU3"/>
+    <NS1:localized RDF:resource="rdf:#$I.woU3"/>
+    <NS1:localized RDF:resource="rdf:#$J.woU3"/>
+    <NS1:localized RDF:resource="rdf:#$K.woU3"/>
+    <NS1:translator>Ahmet Serkan Tıratacı</NS1:translator>
+    <NS1:translator>Aivo Kuhlberg</NS1:translator>
+    <NS1:translator>AlleyKat</NS1:translator>
+    <NS1:translator>Dagobert_78</NS1:translator>
+    <NS1:translator>Genti Ereqi</NS1:translator>
+    <NS1:translator>Hrvoje Majer</NS1:translator>
+    <NS1:translator>Jakub Tománek</NS1:translator>
+    <NS1:translator>Joni Heinonen</NS1:translator>
+    <NS1:translator>Jose Sun</NS1:translator>
+    <NS1:translator>Ján Kendi (Jacen)</NS1:translator>
+    <NS1:translator>KNTRO</NS1:translator>
+    <NS1:translator>Ken</NS1:translator>
+    <NS1:translator>Kristján Bjarni Guðmundsson</NS1:translator>
+    <NS1:translator>Leonid</NS1:translator>
+    <NS1:translator>Leszek(teo)Życzkowski</NS1:translator>
+    <NS1:translator>Luana Di Muzio</NS1:translator>
+    <NS1:translator>Manuel Meixide</NS1:translator>
+    <NS1:translator>Mark Tyndall</NS1:translator>
+    <NS1:translator>Martin Srebotnjak</NS1:translator>
+    <NS1:translator>Mauro José da Silva</NS1:translator>
+    <NS1:translator>Maybee</NS1:translator>
+    <NS1:translator>Mikael Hiort af Ornäs</NS1:translator>
+    <NS1:translator>Mikes Kaszmán István</NS1:translator>
+    <NS1:translator>Milupo</NS1:translator>
+    <NS1:translator>Nguyễn Mạnh Hùng</NS1:translator>
+    <NS1:translator>Ninnetyer</NS1:translator>
+    <NS1:translator>Premier</NS1:translator>
+    <NS1:translator>Raul Pimentel</NS1:translator>
+    <NS1:translator>Regmos</NS1:translator>
+    <NS1:translator>Reza_NA</NS1:translator>
+    <NS1:translator>Schuzak</NS1:translator>
+    <NS1:translator>SiiiE</NS1:translator>
+    <NS1:translator>Stefan Lewitas</NS1:translator>
+    <NS1:translator>Teboga</NS1:translator>
+    <NS1:translator>Toni Barrera</NS1:translator>
+    <NS1:translator>Urko</NS1:translator>
+    <NS1:translator>Wim Benes</NS1:translator>
+    <NS1:translator>Wladimir Palant</NS1:translator>
+    <NS1:translator>anonymous74100</NS1:translator>
+    <NS1:translator>bahramm</NS1:translator>
+    <NS1:translator>blackdire</NS1:translator>
+    <NS1:translator>catcat</NS1:translator>
+    <NS1:translator>el_libre</NS1:translator>
+    <NS1:translator>jojaba</NS1:translator>
+    <NS1:translator>k2jp</NS1:translator>
+    <NS1:translator>kapetance</NS1:translator>
+    <NS1:translator>knight00931</NS1:translator>
+    <NS1:translator>markh</NS1:translator>
+    <NS1:translator>pirlouy</NS1:translator>
+    <NS1:translator>pitdicker</NS1:translator>
+    <NS1:translator>rookie</NS1:translator>
+    <NS1:translator>sushizang</NS1:translator>
+    <NS1:translator>temperror</NS1:translator>
+    <NS1:translator>ultravioletu</NS1:translator>
+    <NS1:translator>Бауржан Муфтахидинов</NS1:translator>
+    <NS1:translator>Баярсайхан Энхтайван</NS1:translator>
+    <NS1:translator>ДакСРБИЈА</NS1:translator>
+    <NS1:translator>Ивайло Йовчев (s0urce)</NS1:translator>
+    <NS1:translator>Тимофій Бабич</NS1:translator>
+    <NS1:translator>Էդուարդ Բաբայան (edo248)</NS1:translator>
+    <NS1:translator>مؤيد مارديني</NS1:translator>
+    <NS1:contributor>Claude Lespagnol aka Efdur</NS1:contributor>
+    <NS1:contributor>Nickolay Ponomarev</NS1:contributor>
+    <NS1:contributor>Kevin Keller</NS1:contributor>
+    <NS1:contributor>Fabrice Desré</NS1:contributor>
+    <NS1:contributor>Günther Beyer (opoloo.de)</NS1:contributor>
+    <NS1:targetApplication RDF:resource="rdf:#$L.woU3"/>
+    <NS1:targetApplication RDF:resource="rdf:#$M.woU3"/>
+    <NS1:targetApplication RDF:resource="rdf:#$N.woU3"/>
+    <NS1:targetApplication RDF:resource="rdf:#$O.woU3"/>
+    <NS1:targetApplication RDF:resource="rdf:#$P.woU3"/>
+    <NS1:targetApplication RDF:resource="rdf:#$Q.woU3"/>
+    <NS1:targetApplication RDF:resource="rdf:#$R.woU3"/>
+  </RDF:Description>
+  <RDF:Description RDF:about="rdf:#$K.woU3"
+                   NS1:locale="zh-TW"
+                   NS1:name="Adblock Plus"
+                   NS1:description="廣告已成過去式！"
+                   NS1:creator="Wladimir Palant"
+                   NS1:homepageURL="https://adblockplus.org/zh_TW/" />
+  <RDF:Description RDF:about="rdf:#$y.woU3"
+                   NS1:locale="ro"
+                   NS1:name="Adblock Plus"
+                   NS1:description="Elimină publicitatea din paginile web."
+                   NS1:creator="Wladimir Palant"
+                   NS1:homepageURL="http://adblockplus.org/" />
+  <RDF:Description RDF:about="rdf:#$m.woU3"
+                   NS1:locale="is"
+                   NS1:name="Adblock Plus"
+                   NS1:description="Auglýsingar eru hluti af fortíðinni!"
+                   NS1:creator="Wladimir Palant"
+                   NS1:homepageURL="http://adblockplus.org/" />
+  <RDF:Description RDF:about="rdf:#$y0QbQ2"
+                   NS1:id="{ec8030f7-c20a-464f-9b0e-13a3a9e97384}"
+                   NS1:minVersion="3.5"
+                   NS1:maxVersion="10.0a1" />
+  <RDF:Description RDF:about="rdf:#$a.woU3"
+                   NS1:locale="es-MX"
+                   NS1:name="Adblock Plus"
+                   NS1:description="Los Anuncios son cosa del Ayer!"
+                   NS1:creator="Wladimir Palant"
+                   NS1:homepageURL="http://adblockplus.org/es/" />
+  <RDF:Description RDF:about="rdf:#$11xoU3"
+                   NS1:id="{a463f10c-3994-11da-9945-000d60ca027b}"
+                   NS1:minVersion="1.0"
+                   NS1:maxVersion="2.6.*" />
+  <RDF:Description RDF:about="urn:mozilla:item:{e0204bd5-9d31-402b-a99d-a6aa8ffebdca}"
+                   NS1:installLocation="app-profile"
+                   NS1:userDisabled="true"
+                   NS1:version="1.2.5"
+                   NS1:optionsURL="chrome://torbutton/content/preferences.xul"
+                   NS1:iconURL="chrome://torbutton/skin/tor.png"
+                   NS1:name="Torbutton"
+                   NS1:creator="Mike Perry &amp; Scott Squires"
+                   NS1:homepageURL="https://www.torproject.org/torbutton">
+    <NS1:type NC:parseType="Integer">2</NS1:type>
+    <NS1:targetApplication RDF:resource="rdf:#$3.PbQ2"/>
+  </RDF:Description>
+  <RDF:Description RDF:about="urn:mozilla:item:pt-BR@dellalibera.sf.net"
+                   NS1:installLocation="app-profile"
+                   NS1:version="1.8"
+                   NS1:name="Verificador Ortográfico para Português do Brasil."
+                   NS1:description="Verificador ortográfico para português do Brasil com a maioria das palavras existentes. De acordo com a reforma ortográfica que entrou em vigor em Janeiro de 2009."
+                   NS1:creator="Vinícius Della Líbera"
+                   NS1:homepageURL="http://ateliedematematica.blogspot.com"
+                   NS1:appDisabled="true">
+    <NS1:type NC:parseType="Integer">2</NS1:type>
+    <NS1:contributor>Adriana Quintanilha</NS1:contributor>
+    <NS1:contributor>Duda Coelho</NS1:contributor>
+    <NS1:contributor>Gustavo de Nardin</NS1:contributor>
+    <NS1:contributor>Gustavo Dias</NS1:contributor>
+    <NS1:targetApplication RDF:resource="rdf:#$gcxoU3"/>
+    <NS1:targetApplication RDF:resource="rdf:#$hcxoU3"/>
+    <NS1:targetApplication RDF:resource="rdf:#$icxoU3"/>
+    <NS1:targetApplication RDF:resource="rdf:#$jcxoU3"/>
+    <NS1:targetApplication RDF:resource="rdf:#$kcxoU3"/>
+  </RDF:Description>
+  <RDF:Description RDF:about="urn:mozilla:item:vimperator@mozdev.org"
+                   NS1:installLocation="app-profile"
+                   NS1:userDisabled="true"
+                   NS1:version="2.3.1"
+                   NS1:optionsURL="chrome://liberator/content/preferences.xul"
+                   NS1:iconURL="chrome://vimperator/skin/icon.png"
+                   NS1:name="Vimperator"
+                   NS1:description="Make Firefox behave like Vim"
+                   NS1:creator="Martin Stubenschrott"
+                   NS1:homepageURL="http://vimperator.org">
+    <NS1:type NC:parseType="Integer">2</NS1:type>
+    <NS1:targetApplication RDF:resource="rdf:#$j0QbQ2"/>
+  </RDF:Description>
+  <RDF:Description RDF:about="rdf:#$GeQbQ2"
+                   NS1:id="{ec8030f7-c20a-464f-9b0e-13a3a9e97384}"
+                   NS1:minVersion="3.6"
+                   NS1:maxVersion="8.0a1" />
+  <RDF:Description RDF:about="rdf:#$3.PbQ2"
+                   NS1:id="{ec8030f7-c20a-464f-9b0e-13a3a9e97384}"
+                   NS1:minVersion="2.0"
+                   NS1:maxVersion="3.7a1pre" />
+  <RDF:Description RDF:about="rdf:#$L2QbQ2"
+                   NS1:id="{ec8030f7-c20a-464f-9b0e-13a3a9e97384}"
+                   NS1:minVersion="1.0"
+                   NS1:maxVersion="8.*" />
+  <RDF:Description RDF:about="rdf:#$Y6xoU3"
+                   NS1:locale="hr"
+                   NS1:name="Tab Counter"
+                   NS1:description="Broji kolicinu otvorenih tabova"
+                   NS1:creator="Morac"
+                   NS1:translator="Sincic (hr)"
+                   NS1:contributor="Jonathon Merz" />
+  <RDF:Description RDF:about="rdf:#$B2xoU3"
+                   NS1:id="{86c18b42-e466-45a9-ae7a-9b95ba6f5640}"
+                   NS1:minVersion="1.0"
+                   NS1:maxVersion="1.8+" />
+  <RDF:Description RDF:about="rdf:#$GbxoU3"
+                   NS1:id="songbird@songbirdnest.com"
+                   NS1:minVersion="1.0"
+                   NS1:maxVersion="1.8.*" />
+  <RDF:Description RDF:about="rdf:#$F+woU3"
+                   NS1:id="{92650c4d-4b8e-4d2a-b7eb-24ecf4f6b63a}"
+                   NS1:minVersion="2.0a"
+                   NS1:maxVersion="2.7a1" />
+  <RDF:Description RDF:about="rdf:#$12xoU3"
+                   NS1:id="{92650c4d-4b8e-4d2a-b7eb-24ecf4f6b63a}"
+                   NS1:minVersion="2.0"
+                   NS1:maxVersion="2.1.*" />
+  <RDF:Description RDF:about="urn:mozilla:item:copy-pure-text@kashiif-gmail.com"
+                   NS1:installLocation="app-profile"
+                   NS1:version="2.0.1"
+                   NS1:optionsURL="chrome://copy-pure-text/content/options.xul"
+                   NS1:iconURL="chrome://copy-pure-text/skin/cpt-icon.png"
+                   NS1:name="Copy Pure Text"
+                   NS1:description="Allows to copy selected text as plain text by adding a Copy as Text menu item to context menu."
+                   NS1:creator="Kashif Iqbal Khan"
+                   NS1:homepageURL="http://kashiif.byethost5.com/blog/copy-pure-text/">
+    <NS1:type NC:parseType="Integer">2</NS1:type>
+    <NS1:targetApplication RDF:resource="rdf:#$E+woU3"/>
+    <NS1:targetApplication RDF:resource="rdf:#$F+woU3"/>
+    <NS1:targetApplication RDF:resource="rdf:#$G+woU3"/>
+  </RDF:Description>
+  <RDF:Description RDF:about="rdf:#$FeQbQ2"
+                   NS1:id="{ec8030f7-c20a-464f-9b0e-13a3a9e97384}"
+                   NS1:minVersion="3.5"
+                   NS1:maxVersion="3.6.*" />
+  <RDF:Description RDF:about="rdf:#$ZfQbQ2"
+                   NS1:id="toolkit@mozilla.org"
+                   NS1:minVersion="1.9.0.*"
+                   NS1:maxVersion="2.0.0.*" />
+  <RDF:Description RDF:about="rdf:#$N.woU3"
+                   NS1:id="{ec8030f7-c20a-464f-9b0e-13a3a9e97384}"
+                   NS1:minVersion="3.5"
+                   NS1:maxVersion="9.0a1" />
+  <RDF:Description RDF:about="rdf:#$.ZwoU3"
+                   NS1:locale="ar"
+                   NS1:name="Adblock Plus"
+                   NS1:description="الإعلانات أصبحت من الأمس!"
+                   NS1:creator="Wladimir Palant"
+                   NS1:homepageURL="http://adblockplus.org/ar/" />
+  <RDF:Description RDF:about="rdf:#$P.woU3"
+                   NS1:id="{92650c4d-4b8e-4d2a-b7eb-24ecf4f6b63a}"
+                   NS1:minVersion="2.0"
+                   NS1:maxVersion="2.6a1" />
+  <RDF:Description RDF:about="rdf:#$D.woU3"
+                   NS1:locale="sr"
+                   NS1:name="Adblock Plus"
+                   NS1:description="Рекламе су прошлост!"
+                   NS1:creator="Wladimir Palant"
+                   NS1:homepageURL="http://adblockplus.org/" />
+  <RDF:Description RDF:about="rdf:#$r.woU3"
+                   NS1:locale="lv"
+                   NS1:name="Adblock Plus"
+                   NS1:description="Reklāmas bija vakardiena!"
+                   NS1:creator="Wladimir Palant"
+                   NS1:homepageURL="http://adblockplus.org/" />
+  <RDF:Description RDF:about="urn:mozilla:item:ServerSpy@jacquet.eu.org"
+                   NS1:installLocation="app-profile"
+                   NS1:version="0.2.1"
+                   NS1:optionsURL="chrome://serverspy/content/options.xul"
+                   NS1:iconURL="chrome://serverspy/content/serverspy-32.png"
+                   NS1:name="Server Spy"
+                   NS1:description="Indicates what brand of HTTP server runs on the visited site."
+                   NS1:creator="Christophe Jacquet"
+                   NS1:homepageURL="http://www.jacquet80.eu/mozilla/exts/ServerSpy/">
+    <NS1:type NC:parseType="Integer">2</NS1:type>
+    <NS1:localized RDF:resource="rdf:#$q3xoU3"/>
+    <NS1:targetApplication RDF:resource="rdf:#$r3xoU3"/>
+  </RDF:Description>
+  <RDF:Description RDF:about="rdf:#$f.woU3"
+                   NS1:locale="fy-NL"
+                   NS1:name="Adblock Plus"
+                   NS1:description="Fan no ôf gjin reklames mear!"
+                   NS1:creator="Wladimir Palant"
+                   NS1:homepageURL="http://adblockplus.org/" />
+  <RDF:Description RDF:about="rdf:#$3.woU3"
+                   NS1:locale="de"
+                   NS1:name="Adblock Plus"
+                   NS1:description="Werbung war gestern!"
+                   NS1:creator="Wladimir Palant"
+                   NS1:homepageURL="http://adblockplus.org/de/" />
+  <RDF:Description RDF:about="rdf:#$77xoU3"
+                   NS1:locale="uk"
+                   NS1:name="Tab Counter"
+                   NS1:description="Рахує кількість відкритих вкладок."
+                   NS1:creator="Morac"
+                   NS1:translator="Sappa (uk)"
+                   NS1:contributor="Jonathon Merz" />
+  <RDF:Description RDF:about="rdf:#$23xoU3"
+                   NS1:locale="ja"
+                   NS1:name="KeySnail"
+                   NS1:description="JavaScript の関数をキーシーケンスに割り当て"
+                   NS1:creator="mooz"
+                   NS1:homepageURL="http://wiki.github.com/mooz/keysnail/keysnail-japanese" />
+  <RDF:Description RDF:about="urn:mozilla:item:{8f8fe09b-0bd3-4470-bc1b-8cad42b8203a}"
+                   NS1:installLocation="app-profile"
+                   NS1:version="0.17"
+                   NS1:optionsURL="chrome://livehttpheaders/content/LiveHTTPHeaders.xul"
+                   NS1:iconURL="chrome://livehttpheaders/skin/img/Logo_32.png"
+                   NS1:name="Live HTTP Headers"
+                   NS1:description="View HTTP headers of a page and while browsing."
+                   NS1:creator="Daniel Savard"
+                   NS1:homepageURL="http://livehttpheaders.mozdev.org/">
+    <NS1:type NC:parseType="Integer">2</NS1:type>
+    <NS1:localized RDF:resource="rdf:#$E9xoU3"/>
+    <NS1:localized RDF:resource="rdf:#$F9xoU3"/>
+    <NS1:localized RDF:resource="rdf:#$G9xoU3"/>
+    <NS1:localized RDF:resource="rdf:#$H9xoU3"/>
+    <NS1:localized RDF:resource="rdf:#$I9xoU3"/>
+    <NS1:localized RDF:resource="rdf:#$J9xoU3"/>
+    <NS1:localized RDF:resource="rdf:#$K9xoU3"/>
+    <NS1:localized RDF:resource="rdf:#$L9xoU3"/>
+    <NS1:localized RDF:resource="rdf:#$M9xoU3"/>
+    <NS1:localized RDF:resource="rdf:#$N9xoU3"/>
+    <NS1:contributor>Alex Pleiner</NS1:contributor>
+    <NS1:contributor>Balogh Tibor</NS1:contributor>
+    <NS1:contributor>Bernardo A. de la Ossa Pérez</NS1:contributor>
+    <NS1:contributor>Boris Zbarsky</NS1:contributor>
+    <NS1:contributor>Christopher Cook</NS1:contributor>
+    <NS1:contributor>Daniel Brooks</NS1:contributor>
+    <NS1:contributor>David Boswell</NS1:contributor>
+    <NS1:contributor>Ere Maijala</NS1:contributor>
+    <NS1:contributor>FenyX at ShareStation.com</NS1:contributor>
+    <NS1:contributor>François Constantineau</NS1:contributor>
+    <NS1:contributor>Grégoire Lejeune</NS1:contributor>
+    <NS1:contributor>Henrik Gemal</NS1:contributor>
+    <NS1:contributor>Joshua Hewitt</NS1:contributor>
+    <NS1:contributor>Lionello Lunesu</NS1:contributor>
+    <NS1:contributor>Lolilolicon</NS1:contributor>
+    <NS1:contributor>Macarie Neculai</NS1:contributor>
+    <NS1:contributor>Mandeep Singh</NS1:contributor>
+    <NS1:contributor>Manuel Garcia</NS1:contributor>
+    <NS1:contributor>Mathieu Hautot</NS1:contributor>
+    <NS1:contributor>Michal Kec</NS1:contributor>
+    <NS1:contributor>Mook</NS1:contributor>
+    <NS1:contributor>Nathan Fain</NS1:contributor>
+    <NS1:contributor>Nikolas Coukouma</NS1:contributor>
+    <NS1:contributor>Nils Maier</NS1:contributor>
+    <NS1:contributor>Paul Lacourse</NS1:contributor>
+    <NS1:contributor>Pavel Franc</NS1:contributor>
+    <NS1:contributor>Philip Chee</NS1:contributor>
+    <NS1:contributor>Richard Marti</NS1:contributor>
+    <NS1:contributor>Richard Mlynarik</NS1:contributor>
+    <NS1:contributor>Stanimir Stamenkov</NS1:contributor>
+    <NS1:contributor>Stefan Trcek</NS1:contributor>
+    <NS1:contributor>Sven Anders</NS1:contributor>
+    <NS1:contributor>Takanori Matsuura</NS1:contributor>
+    <NS1:contributor>Todd Knarr</NS1:contributor>
+    <NS1:contributor>Wladimir Palant</NS1:contributor>
+    <NS1:contributor>Wojtek Meler</NS1:contributor>
+    <NS1:targetApplication RDF:resource="rdf:#$O9xoU3"/>
+    <NS1:targetApplication RDF:resource="rdf:#$P9xoU3"/>
+    <NS1:targetApplication RDF:resource="rdf:#$Q9xoU3"/>
+  </RDF:Description>
+  <RDF:Description RDF:about="rdf:#$W3QbQ2"
+                   NS1:id="{86c18b42-e466-45a9-ae7a-9b95ba6f5640}"
+                   NS1:minVersion="1.0"
+                   NS1:maxVersion="1.8" />
+  <RDF:Description RDF:about="rdf:#$C4QbQ2"
+                   NS1:id="{ec8030f7-c20a-464f-9b0e-13a3a9e97384}"
+                   NS1:minVersion="3.0"
+                   NS1:maxVersion="8.0a1" />
+  <RDF:Seq RDF:about="urn:mozilla:item:root">
+    <RDF:li RDF:resource="urn:mozilla:item:firebug@tools.sitepoint.com"/>
+    <RDF:li RDF:resource="urn:mozilla:item:{6AC85730-7D0F-4de0-B3FA-21142DD85326}"/>
+    <RDF:li RDF:resource="urn:mozilla:item:{972ce4c6-7e08-4474-a285-3208198ce6fd}"/>
+    <RDF:li RDF:resource="urn:mozilla:item:externalip@erik.morlin"/>
+    <RDF:li RDF:resource="urn:mozilla:item:fastdial@telega.phpnet.us"/>
+    <RDF:li RDF:resource="urn:mozilla:item:firebug@software.joehewitt.com"/>
+    <RDF:li RDF:resource="urn:mozilla:item:firecookie@janodvarko.cz"/>
+    <RDF:li RDF:resource="urn:mozilla:item:{d37dc5d0-431d-44e5-8c91-49419370caa1}"/>
+    <RDF:li RDF:resource="urn:mozilla:item:{8f8fe09b-0bd3-4470-bc1b-8cad42b8203a}"/>
+    <RDF:li RDF:resource="urn:mozilla:item:{6dfc4f52-26f0-4e5f-89c7-31d6de480db9}"/>
+    <RDF:li RDF:resource="urn:mozilla:item:nasanightlaunch@example.com"/>
+    <RDF:li RDF:resource="urn:mozilla:item:{73a6fe31-595d-460b-a920-fcc0f8843232}"/>
+    <RDF:li RDF:resource="urn:mozilla:item:{e3f6c2cc-d8db-498c-af6c-499fb211db97}"/>
+    <RDF:li RDF:resource="urn:mozilla:item:isreaditlater@ideashower.com"/>
+    <RDF:li RDF:resource="urn:mozilla:item:restart@restart.org"/>
+    <RDF:li RDF:resource="urn:mozilla:item:{0c8fbd76-bdeb-4c52-9b24-d587ce7b9dc3}"/>
+    <RDF:li RDF:resource="urn:mozilla:item:ServerSpy@jacquet.eu.org"/>
+    <RDF:li RDF:resource="urn:mozilla:item:{3e9bb2a7-62ca-4efa-a4e6-f6f6168a652d}"/>
+    <RDF:li RDF:resource="urn:mozilla:item:tabcounter@morac"/>
+    <RDF:li RDF:resource="urn:mozilla:item:{e0204bd5-9d31-402b-a99d-a6aa8ffebdca}"/>
+    <RDF:li RDF:resource="urn:mozilla:item:ubiquity@labs.mozilla.com"/>
+    <RDF:li RDF:resource="urn:mozilla:item:{6E5B6DC4-4AE8-4984-9A28-9A7CFA937DE2}"/>
+    <RDF:li RDF:resource="urn:mozilla:item:{e968fc70-8f95-4ab9-9e79-304de2a71ee1}"/>
+    <RDF:li RDF:resource="urn:mozilla:item:{68836a21-fc7d-4ea1-a065-7efabd99d414}"/>
+    <RDF:li RDF:resource="urn:mozilla:item:vimperator@mozdev.org"/>
+    <RDF:li RDF:resource="urn:mozilla:item:{c45c406e-ab73-11d8-be73-000a95be3b12}"/>
+    <RDF:li RDF:resource="urn:mozilla:item:xdebughelper@mail.ru"/>
+    <RDF:li RDF:resource="urn:mozilla:item:foxmarks@kei.com"/>
+    <RDF:li RDF:resource="urn:mozilla:item:yslow@yahoo-inc.com"/>
+    <RDF:li RDF:resource="urn:mozilla:item:tinyurl.addon@fast-chat.co.uk"/>
+    <RDF:li RDF:resource="urn:mozilla:item:langpack-en-GB@firefox-3.6.ubuntu.com"/>
+    <RDF:li RDF:resource="urn:mozilla:item:keysnail@mooz.github.com"/>
+    <RDF:li RDF:resource="urn:mozilla:item:{d47a9f51-8281-43fa-f450-f28ef8735e9a}"/>
+    <RDF:li RDF:resource="urn:mozilla:item:es-MX@dictionaries.addons.mozilla.org"/>
+    <RDF:li RDF:resource="urn:mozilla:item:{e4a8a97b-f2ed-450b-b12d-ee082ba24781}"/>
+    <RDF:li RDF:resource="urn:mozilla:item:{a7c6cf7f-112c-4500-a7ea-39801a327e5f}"/>
+    <RDF:li RDF:resource="urn:mozilla:item:itsalltext@docwhat.gerf.org"/>
+    <RDF:li RDF:resource="urn:mozilla:item:pt-BR@dellalibera.sf.net"/>
+    <RDF:li RDF:resource="urn:mozilla:item:{AE93811A-5C9A-4d34-8462-F7B864FC4696}"/>
+    <RDF:li RDF:resource="urn:mozilla:item:firediff@johnjbarton.com"/>
+    <RDF:li RDF:resource="urn:mozilla:item:selectbug@getfirebug.com"/>
+    <RDF:li RDF:resource="urn:mozilla:item:firestarter@getfirebug.com"/>
+    <RDF:li RDF:resource="urn:mozilla:item:copy-pure-text@kashiif-gmail.com"/>
+    <RDF:li RDF:resource="urn:mozilla:item:SkipScreen@SkipScreen"/>
+    <RDF:li RDF:resource="urn:mozilla:item:{d10d0bf8-f5b5-c8b4-a8b2-2b9879e08c5d}"/>
+    <RDF:li RDF:resource="urn:mozilla:item:lazarus@interclue.com"/>
+  </RDF:Seq>
+  <RDF:Description RDF:about="urn:mozilla:item:isreaditlater@ideashower.com"
+                   NS1:installLocation="app-profile"
+                   NS1:userDisabled="true"
+                   NS1:version="2.1.3"
+                   NS1:optionsURL="chrome://isreaditlater/content/options.xul"
+                   NS1:iconURL="chrome://isreaditlater/skin/icon.png"
+                   NS1:name="Read It Later"
+                   NS1:description="Save pages to read later."
+                   NS1:creator="Nate Weiner"
+                   NS1:homepageURL="http://readitlaterlist.com">
+    <NS1:type NC:parseType="Integer">2</NS1:type>
+    <NS1:targetApplication RDF:resource="rdf:#$y0QbQ2"/>
+  </RDF:Description>
+  <RDF:Description RDF:about="rdf:#$tSwoU3"
+                   NS1:id="toolkit@mozilla.org"
+                   NS1:minVersion="1.9a2"
+                   NS1:maxVersion="1.9.6" />
+  <RDF:Description RDF:about="rdf:#$e+woU3"
+                   NS1:id="{a79fe89b-6662-4ff4-8e88-09950ad4dfde}"
+                   NS1:minVersion="0.1"
+                   NS1:maxVersion="9.9" />
+  <RDF:Description RDF:about="rdf:#$G9xoU3"
+                   NS1:locale="de-AT"
+                   NS1:name="Live HTTP headers"
+                   NS1:description="Zeigt die HTTP Header einer Seite." />
+  <RDF:Description RDF:about="rdf:#$B4ouO1"
+                   NS1:id="{92650c4d-4b8e-4d2a-b7eb-24ecf4f6b63a}"
+                   NS1:minVersion="2.0"
+                   NS1:maxVersion="2.1.*" />
+  <RDF:Description RDF:about="rdf:#$3bxoU3"
+                   NS1:id="{ec8030f7-c20a-464f-9b0e-13a3a9e97384}"
+                   NS1:minVersion="3.6"
+                   NS1:maxVersion="9.0a1" />
+  <RDF:Description RDF:about="rdf:#$I.woU3"
+                   NS1:locale="vi"
+                   NS1:name="Adblock Plus"
+                   NS1:description="Quảng cáo đã là dĩ vãng!"
+                   NS1:creator="Wladimir Palant"
+                   NS1:homepageURL="http://adblockplus.org/" />
+  <RDF:Description RDF:about="rdf:#$DaxoU3"
+                   NS1:id="{ec8030f7-c20a-464f-9b0e-13a3a9e97384}"
+                   NS1:minVersion="1.5"
+                   NS1:maxVersion="4.0.*" />
+  <RDF:Description RDF:about="rdf:#$41QbQ2"
+                   NS1:id="{ec8030f7-c20a-464f-9b0e-13a3a9e97384}"
+                   NS1:minVersion="3.6"
+                   NS1:maxVersion="4.0b2pre" />
+  <RDF:Description RDF:about="rdf:#$8.woU3"
+                   NS1:locale="es-AR"
+                   NS1:name="Adblock Plus"
+                   NS1:description="¡La publicidad es cosa del pasado!"
+                   NS1:creator="Wladimir Palant"
+                   NS1:homepageURL="http://adblockplus.org/es/" />
+  <RDF:Description RDF:about="urn:mozilla:item:{6E5B6DC4-4AE8-4984-9A28-9A7CFA937DE2}"
+                   NS1:version="0.2.1"
+                   NS1:optionsURL="chrome://usagecounter/content/options.xul"
+                   NS1:iconURL="chrome://usagecounter/skin/icon.png"
+                   NS1:name="Usage Counter"
+                   NS1:description="Tells you how much time you have spent using Firefox."
+                   NS1:creator="NSA"
+                   NS1:homepageURL="http://www.undermined.org/projects/view/2"
+                   NS1:userDisabled="true"
+                   NS1:installLocation="app-profile"
+                   NS1:newVersion="0.2.1">
+    <NS1:targetApplication RDF:resource="rdf:#$HJsrY3"/>
+    <NS1:type NC:parseType="Integer">2</NS1:type>
+  </RDF:Description>
+  <RDF:Description RDF:about="urn:mozilla:item:restart@restart.org"
+                   NS1:installLocation="app-profile"
+                   NS1:version="0.5"
+                   NS1:optionsURL="chrome://restartfirefox/content/options.xul"
+                   NS1:aboutURL="chrome://restartfirefox/content/about.xul"
+                   NS1:iconURL="chrome://restartfirefox/content/icon.png"
+                   NS1:name="Restart Firefox"
+                   NS1:description="Restart Firefox with ease"
+                   NS1:creator="Jed Brown"
+                   NS1:homepageURL="https://addons.mozilla.org/addon/10749/">
+    <NS1:type NC:parseType="Integer">2</NS1:type>
+    <NS1:contributor>finny08</NS1:contributor>
+    <NS1:contributor>jSully</NS1:contributor>
+    <NS1:targetApplication RDF:resource="rdf:#$c0xoU3"/>
+  </RDF:Description>
+  <RDF:Description RDF:about="rdf:#$DSwoU3"
+                   NS1:id="{a463f10c-3994-11da-9945-000d60ca027b}"
+                   NS1:minVersion="0.4"
+                   NS1:maxVersion="2.*" />
+  <RDF:Description RDF:about="urn:mozilla:item:firestarter@getfirebug.com"
+                   NS1:installLocation="app-profile"
+                   NS1:version="0.1.a5"
+                   NS1:name="FireStarter"
+                   NS1:description="Firebug extension providing advanced features for Firebug activation model."
+                   NS1:creator="Jan Odvarko">
+    <NS1:type NC:parseType="Integer">2</NS1:type>
+    <NS1:targetApplication RDF:resource="rdf:#$9gQbQ2"/>
+  </RDF:Description>
+  <RDF:Description RDF:about="rdf:#$SZPbQ2"
+                   NS1:id="{ec8030f7-c20a-464f-9b0e-13a3a9e97384}"
+                   NS1:minVersion="1.5"
+                   NS1:maxVersion="4.0" />
+  <RDF:Description RDF:about="rdf:#$EbxoU3"
+                   NS1:id="{a463f10c-3994-11da-9945-000d60ca027b}"
+                   NS1:minVersion="1.0"
+                   NS1:maxVersion="2.6.*" />
+  <RDF:Description RDF:about="rdf:#$c5QbQ2"
+                   NS1:id="{ec8030f7-c20a-464f-9b0e-13a3a9e97384}"
+                   NS1:minVersion="3.0"
+                   NS1:maxVersion="8.*" />
+  <RDF:Description RDF:about="rdf:#$+1xoU3"
+                   NS1:id="{ec8030f7-c20a-464f-9b0e-13a3a9e97384}"
+                   NS1:minVersion="3.0"
+                   NS1:maxVersion="6.*" />
+  <RDF:Description RDF:about="urn:mozilla:item:{d37dc5d0-431d-44e5-8c91-49419370caa1}"
+                   NS1:installLocation="app-profile"
+                   NS1:version="2.9.35"
+                   NS1:optionsURL="chrome://foxclocks/content/foxclocks.xul"
+                   NS1:iconURL="chrome://foxclocks/skin/icon.png"
+                   NS1:name="FoxClocks"
+                   NS1:description="Displays local times around the world in the statusbar/toolbar. Supports virtually all time zones."
+                   NS1:creator="Andy McDonald"
+                   NS1:homepageURL="http://www.stemhaus.com/firefox/foxclocks/">
+    <NS1:type NC:parseType="Integer">2</NS1:type>
+    <NS1:contributor>Eric H. Jung</NS1:contributor>
+    <NS1:contributor>Carl Ireland</NS1:contributor>
+    <NS1:contributor>Sandi Trillo</NS1:contributor>
+    <NS1:contributor>Philip Chee</NS1:contributor>
+    <NS1:contributor>Stefan Sitter</NS1:contributor>
+    <NS1:contributor>Sebastian Lisken</NS1:contributor>
+    <NS1:contributor>Flags: Mark James (famfamfam.com), Juan Rodas (Ecuador)</NS1:contributor>
+    <NS1:contributor>be-BY: DRKA, Andrew O. Shadoura</NS1:contributor>
+    <NS1:contributor>bg-BG: Martin - Varna</NS1:contributor>
+    <NS1:contributor>cs-CZ: Michal NOIEX</NS1:contributor>
+    <NS1:contributor>da-DK: AlleyKat (Babelzillian)</NS1:contributor>
+    <NS1:contributor>de-DE: ReinekeFux, Team erweiterungen.de, D|Z</NS1:contributor>
+    <NS1:contributor>es-ES: Proyecto Nave</NS1:contributor>
+    <NS1:contributor>fr-FR: Okaryn, Olivier Tribout, Yann Schwarz</NS1:contributor>
+    <NS1:contributor>hu-HU: fenya25, misibacsi</NS1:contributor>
+    <NS1:contributor>it-IT: Pedro (Luca Pedrazzi)</NS1:contributor>
+    <NS1:contributor>ja-JP: William Barnes, Reuentahl, Victory, T.R. Satoh, Shadow912</NS1:contributor>
+    <NS1:contributor>ko-KR: Hunimini</NS1:contributor>
+    <NS1:contributor>mn-MN: Natsagdorj Shagdar</NS1:contributor>
+    <NS1:contributor>nb-NO: Håvard Mork</NS1:contributor>
+    <NS1:contributor>nl-NL: markh</NS1:contributor>
+    <NS1:contributor>pl-PL: Leszek(teo)Zyczkowski</NS1:contributor>
+    <NS1:contributor>pt-BR: tchu, RodrigoBiker</NS1:contributor>
+    <NS1:contributor>ru-RU: Alexander L. Slovesnik a.k.a Unghost</NS1:contributor>
+    <NS1:contributor>sk-SK: SlovakSoft</NS1:contributor>
+    <NS1:contributor>sv-SE: Mikael Hiort af Ornäs</NS1:contributor>
+    <NS1:contributor>tr-TR: Kenan Balamir</NS1:contributor>
+    <NS1:contributor>uk-UA: Andriy Baranskyy</NS1:contributor>
+    <NS1:contributor>zh-CN: Rick Cart, 冰男, xmoke</NS1:contributor>
+    <NS1:contributor>zh-TW: Jiayun Zhou, G.S.K.Lee, MilchFlasche</NS1:contributor>
+    <NS1:targetApplication RDF:resource="rdf:#$+1xoU3"/>
+    <NS1:targetApplication RDF:resource="rdf:#$02xoU3"/>
+    <NS1:targetApplication RDF:resource="rdf:#$12xoU3"/>
+    <NS1:targetApplication RDF:resource="rdf:#$22xoU3"/>
+  </RDF:Description>
+  <RDF:Description RDF:about="rdf:#$HJsrY3"
+                   NS1:id="{ec8030f7-c20a-464f-9b0e-13a3a9e97384}"
+                   NS1:minVersion="2.0"
+                   NS1:maxVersion="3.6.*" />
+  <RDF:Description RDF:about="urn:mozilla:item:{AE93811A-5C9A-4d34-8462-F7B864FC4696}"
+                   NS1:installLocation="app-profile"
+                   NS1:version="3.97"
+                   NS1:optionsURL="chrome://stumbleupon/content/preferenceDialog.xul"
+                   NS1:iconURL="chrome://stumbleupon/skin/logo32.png"
+                   NS1:name="StumbleUpon"
+                   NS1:description="StumbleUpon Toolbar"
+                   NS1:creator="StumbleUpon"
+                   NS1:homepageURL="http://www.stumbleupon.com/">
+    <NS1:type NC:parseType="Integer">2</NS1:type>
+    <NS1:contributor>Geoff Smith</NS1:contributor>
+    <NS1:contributor>Garrett Camp</NS1:contributor>
+    <NS1:contributor>Joe Walp</NS1:contributor>
+    <NS1:targetApplication RDF:resource="rdf:#$zSwoU3"/>
+    <NS1:targetApplication RDF:resource="rdf:#$ASwoU3"/>
+    <NS1:targetApplication RDF:resource="rdf:#$BSwoU3"/>
+    <NS1:targetApplication RDF:resource="rdf:#$CSwoU3"/>
+    <NS1:targetApplication RDF:resource="rdf:#$DSwoU3"/>
+  </RDF:Description>
+  <RDF:Description RDF:about="urn:mozilla:item:{e3f6c2cc-d8db-498c-af6c-499fb211db97}"
+                   NS1:installLocation="app-profile"
+                   NS1:userDisabled="true"
+                   NS1:version="1.11.2.1"
+                   NS1:updateURL="https://tools.google.com/service/update2/ff?guid=%ITEM_ID%&amp;version=%ITEM_VERSION%&amp;application=%APP_ID%&amp;appversion=%APP_VERSION%"
+                   NS1:iconURL="chrome://pagespeed/content/pagespeed-32.png"
+                   NS1:name="Page Speed"
+                   NS1:description="Speed up your web pages with this performance diagnostics tool. Requires Firebug."
+                   NS1:creator="Google Inc."
+                   NS1:homepageURL="http://code.google.com/speed/page-speed/">
+    <NS1:type NC:parseType="Integer">2</NS1:type>
+    <NS1:targetApplication RDF:resource="rdf:#$l1QbQ2"/>
+  </RDF:Description>
+  <RDF:Description RDF:about="urn:mozilla:item:fastdial@telega.phpnet.us"
+                   NS1:installLocation="app-profile"
+                   NS1:userDisabled="true"
+                   NS1:version="3.4"
+                   NS1:optionsURL="chrome://fastdial/content/preferences.xul"
+                   NS1:iconURL="chrome://fastdial/skin/images/fastdial.png"
+                   NS1:name="Fast Dial"
+                   NS1:creator="telega"
+                   NS1:homepageURL="http://userlogos.org/extensions/fastdial">
+    <NS1:type NC:parseType="Integer">2</NS1:type>
+    <NS1:contributor>mafi0z</NS1:contributor>
+    <NS1:contributor>chiaroscuro</NS1:contributor>
+    <NS1:targetApplication RDF:resource="rdf:#$B6QbQ2"/>
+  </RDF:Description>
+  <RDF:Description RDF:about="rdf:#$02xoU3"
+                   NS1:id="{3550f703-e582-4d05-9a08-453d09bdfdc6}"
+                   NS1:minVersion="3.0"
+                   NS1:maxVersion="5.*" />
+  <RDF:Description RDF:about="rdf:#$oSwoU3"
+                   NS1:id="{ec8030f7-c20a-464f-9b0e-13a3a9e97384}"
+                   NS1:minVersion="3.0"
+                   NS1:maxVersion="10.0a1" />
+  <RDF:Description RDF:about="rdf:#$B.woU3"
+                   NS1:locale="sl"
+                   NS1:name="Adblock Plus"
+                   NS1:description="Oglasi so preteklost!"
+                   NS1:creator="Wladimir Palant"
+                   NS1:homepageURL="http://adblockplus.org/" />
+  <RDF:Description RDF:about="rdf:#$paxoU3"
+                   NS1:id="{ec8030f7-c20a-464f-9b0e-13a3a9e97384}"
+                   NS1:minVersion="1.5"
+                   NS1:maxVersion="9.0a1" />
+  <RDF:Description RDF:about="rdf:#$d.woU3"
+                   NS1:locale="fi"
+                   NS1:name="Adblock Plus"
+                   NS1:description="Mainokset ovat menneisyyttä!"
+                   NS1:creator="Wladimir Palant"
+                   NS1:homepageURL="http://adblockplus.org/" />
+  <RDF:Description RDF:about="rdf:#$1.woU3"
+                   NS1:locale="cs"
+                   NS1:name="Adblock Plus"
+                   NS1:description="A reklamy jsou minulostí!"
+                   NS1:creator="Wladimir Palant"
+                   NS1:homepageURL="http://adblockplus.org/" />
+  <RDF:Description RDF:about="rdf:#$D2xoU3"
+                   NS1:id="{718e30fb-e89b-41dd-9da7-e25a45638b28}"
+                   NS1:minVersion="0.2"
+                   NS1:maxVersion="1.0pre" />
+  <RDF:Description RDF:about="rdf:#$V6xoU3"
+                   NS1:locale="es-ES"
+                   NS1:name="Tab Counter"
+                   NS1:description="Cuenta el número de pestañas abiertas."
+                   NS1:creator="Morac"
+                   NS1:translator="Chuzo (es-ES)"
+                   NS1:contributor="Jonathon Merz" />
+  <RDF:Description RDF:about="rdf:#$A.woU3"
+                   NS1:locale="sk"
+                   NS1:name="Adblock Plus"
+                   NS1:description="Reklamy sú minulosťou!"
+                   NS1:creator="Wladimir Palant"
+                   NS1:homepageURL="http://adblockplus.org/" />
+  <RDF:Description RDF:about="urn:mozilla:item:yslow@yahoo-inc.com"
+                   NS1:installLocation="app-profile"
+                   NS1:userDisabled="true"
+                   NS1:version="3.0.4"
+                   NS1:optionsURL="chrome://yslow/content/yslowOptions.xul"
+                   NS1:iconURL="chrome://yslow/content/yslow/img/logo_32x32.png"
+                   NS1:name="YSlow"
+                   NS1:description="Make your pages faster with Yahoo!'s page performance tool"
+                   NS1:creator="Yahoo! Inc."
+                   NS1:homepageURL="http://developer.yahoo.com/yslow">
+    <NS1:type NC:parseType="Integer">2</NS1:type>
+    <NS1:targetApplication RDF:resource="rdf:#$c5QbQ2"/>
+  </RDF:Description>
+  <RDF:Description RDF:about="urn:mozilla:item:{6dfc4f52-26f0-4e5f-89c7-31d6de480db9}"
+                   NS1:version="0.2.0.20080521"
+                   NS1:name="lori (Life-of-request info)"
+                   NS1:description="For tracking the life of a request"
+                   NS1:creator="Hung Le"
+                   NS1:homepageURL="http://www.le.com/~hle/lori/"
+                   NS1:userDisabled="true"
+                   NS1:installLocation="app-profile"
+                   NS1:newVersion="0.2.0.20080521">
+    <NS1:targetApplication RDF:resource="rdf:#$rGDxE"/>
+    <NS1:type NC:parseType="Integer">2</NS1:type>
+  </RDF:Description>
+  <RDF:Description RDF:about="rdf:#$gcxoU3"
+                   NS1:id="{ec8030f7-c20a-464f-9b0e-13a3a9e97384}"
+                   NS1:minVersion="4.0"
+                   NS1:maxVersion="7.*" />
+  <RDF:Description RDF:about="urn:mozilla:item:{0c8fbd76-bdeb-4c52-9b24-d587ce7b9dc3}"
+                   NS1:installLocation="app-profile"
+                   NS1:version="2.0.6"
+                   NS1:iconURL="chrome://resurrect/skin/em-icon.png"
+                   NS1:name="Resurrect Pages"
+                   NS1:description="Resurrect dead pages, by finding their ghosts."
+                   NS1:creator="Anthony Lieuallen"
+                   NS1:homepageURL="http://trac.arantius.com/wiki/Extensions/Resurrect"
+                   NS1:contributor="Translators from BabelZilla.org">
+    <NS1:type NC:parseType="Integer">2</NS1:type>
+    <NS1:targetApplication RDF:resource="rdf:#$U+woU3"/>
+  </RDF:Description>
+  <RDF:Description RDF:about="rdf:#$E2xoU3"
+                   NS1:id="{92650c4d-4b8e-4d2a-b7eb-24ecf4f6b63a}"
+                   NS1:minVersion="1.1a"
+                   NS1:maxVersion="2.1a1pre" />
+  <RDF:Description RDF:about="rdf:#$rSwoU3"
+                   NS1:id="{aa5ca914-c309-495d-91cf-3141bbb04115}"
+                   NS1:minVersion="0.2"
+                   NS1:maxVersion="3.1.*" />
+  <RDF:Description RDF:about="rdf:#$FbxoU3"
+                   NS1:id="{92650c4d-4b8e-4d2a-b7eb-24ecf4f6b63a}"
+                   NS1:minVersion="1.0"
+                   NS1:maxVersion="2.0.*" />
+  <RDF:Description RDF:about="rdf:#$CSwoU3"
+                   NS1:id="{3db10fab-e461-4c80-8b97-957ad5f8ea47}"
+                   NS1:minVersion="8.0"
+                   NS1:maxVersion="9.0" />
+  <RDF:Description RDF:about="rdf:#$Q9xoU3"
+                   NS1:id="{92650c4d-4b8e-4d2a-b7eb-24ecf4f6b63a}"
+                   NS1:minVersion="1.0"
+                   NS1:maxVersion="2.1.*" />
+  <RDF:Description RDF:about="rdf:#$E9xoU3"
+                   NS1:locale="cs-CZ"
+                   NS1:name="Hlavičky HTTP"
+                   NS1:description="View HTTP headers of a page and while browsing." />
+  <RDF:Description RDF:about="rdf:#$TSwoU3"
+                   NS1:id="{ec8030f7-c20a-464f-9b0e-13a3a9e97384}"
+                   NS1:minVersion="3.0"
+                   NS1:maxVersion="7.*" />
+  <RDF:Description RDF:about="rdf:#$G.woU3"
+                   NS1:locale="tr"
+                   NS1:name="Adblock Plus"
+                   NS1:description="Reklamlar geçmişte kaldı!"
+                   NS1:creator="Wladimir Palant"
+                   NS1:homepageURL="http://adblockplus.org/" />
+  <RDF:Description RDF:about="rdf:#$u.woU3"
+                   NS1:locale="nl"
+                   NS1:name="Adblock Plus"
+                   NS1:description="Reclames behoren tot het verleden!"
+                   NS1:creator="Wladimir Palant"
+                   NS1:homepageURL="http://adblockplus.org/" />
+  <RDF:Description RDF:about="rdf:#$i.woU3"
+                   NS1:locale="hr"
+                   NS1:name="Adblock Plus"
+                   NS1:description="Oglasi su prošlost!"
+                   NS1:creator="Wladimir Palant"
+                   NS1:homepageURL="http://adblockplus.org/" />
+  <RDF:Description RDF:about="urn:mozilla:item:langpack-en-GB@firefox-3.6.ubuntu.com"
+                   NS1:installLocation="app-global"
+                   NS1:version="3.6"
+                   NS1:name="Firefox (en-GB)"
+                   NS1:creator="http://translations.launchpad.net">
+    <NS1:type NC:parseType="Integer">8</NS1:type>
+    <NS1:targetApplication RDF:resource="rdf:#$NcxoU3"/>
+  </RDF:Description>
+  <RDF:Description RDF:about="rdf:#$6.woU3"
+                   NS1:locale="en-US"
+                   NS1:name="Adblock Plus"
+                   NS1:description="Ads were yesterday!"
+                   NS1:creator="Wladimir Palant"
+                   NS1:homepageURL="http://adblockplus.org/en/" />
+  <RDF:Description RDF:about="rdf:#$a7xoU3"
+                   NS1:id="{ec8030f7-c20a-464f-9b0e-13a3a9e97384}"
+                   NS1:minVersion="2.0"
+                   NS1:maxVersion="4.0.*" />
+  <RDF:Description RDF:about="rdf:#$.6xoU3"
+                   NS1:locale="ja"
+                   NS1:name="Tab Counter"
+                   NS1:description="開いているタブの総数を数えます。"
+                   NS1:creator="Morac"
+                   NS1:translator="Drry (ja)"
+                   NS1:contributor="Jonathon Merz" />
+  <RDF:Description RDF:about="urn:mozilla:item:{68836a21-fc7d-4ea1-a065-7efabd99d414}"
+                   NS1:installLocation="app-profile"
+                   NS1:userDisabled="true"
+                   NS1:version="3.05"
+                   NS1:optionsURL="chrome://vrs/content/options.xul"
+                   NS1:aboutURL="chrome://vrs/content/about.xul"
+                   NS1:iconURL="chrome://vrs/skin/vrssmall.png"
+                   NS1:name="View Source Chart"
+                   NS1:description="Source Chart DOM Inspector"
+                   NS1:creator="Jennifer Madden"
+                   NS1:homepageURL="http://zigrat.com">
+    <NS1:type NC:parseType="Integer">2</NS1:type>
+    <NS1:targetApplication RDF:resource="rdf:#$L2QbQ2"/>
+  </RDF:Description>
+  <RDF:Description RDF:about="rdf:#$q3xoU3"
+                   NS1:locale="fr"
+                   NS1:name="Server Spy"
+                   NS1:description="Indique le type de serveur HTTP utilisé sur le site visité."
+                   NS1:creator="Christophe Jacquet"
+                   NS1:homepageURL="http://www.jacquet80.eu/mozilla/exts/ServerSpy/" />
+</RDF:RDF>
