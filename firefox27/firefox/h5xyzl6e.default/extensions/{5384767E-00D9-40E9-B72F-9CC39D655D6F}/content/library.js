@@ -108,6 +108,59 @@ var library =
       }
    },
 
+   deleteEpubs: function(pos, data, epubsDelete)
+   {
+      if(pos == 0)
+      {
+         var result = confirm("Really delete all checked eBooks?");
+
+         if(result == true)
+         {
+            var epubsDelete = [];
+            var inputs = document.getElementsByTagName("html:input");
+
+            for(var i = 0; i < inputs.length; i++)
+            {
+               if(inputs[i].type == "checkbox" && inputs[i].checked == true)
+               {
+                  epubsDelete.push(inputs[i].name);
+               }
+            }
+
+            if(epubsDelete.length > 0)
+            {
+               pos++;
+               library.deleteEpubs(pos, null, epubsDelete);
+            }
+         }
+      }
+      else if(pos == 1)
+      {
+         var epub = epubsDelete.pop();
+
+         if(epub)
+         {
+            pos++;
+            library.epubreader.deleteEpub(library.deleteEpubs, pos, epub, epubsDelete);
+         }
+         // epub list is empty -> finalize
+         else
+         {
+            library.deleteEpubs(3);
+         }
+      }
+      // delete epub finished
+      else if(pos == 2)
+      {
+         library.deleteEpubs(1, null, epubsDelete);
+      }
+      // all epubs deleted
+      else if(pos == 3)
+      {
+         window.location.reload();
+      }
+   },
+
    showMetadata: function(pos, data, id)
    {
       const meta_title = 1;
@@ -599,6 +652,20 @@ var library =
 
       pref.setIntPref("library_sort", sortPref);
       window.location.reload();
+   },
+
+   toggleDeleteCheckboxes: function()
+   {
+      var toggle = document.getElementById("toggle");
+      var inputs = document.getElementsByTagName("html:input");
+
+      for(var i = 0; i < inputs.length; i++)
+      {
+         if(inputs[i].type == "checkbox")
+         {
+            inputs[i].checked = toggle.checked;
+         }
+      }
    },
 
    escapeHtml: function(text)

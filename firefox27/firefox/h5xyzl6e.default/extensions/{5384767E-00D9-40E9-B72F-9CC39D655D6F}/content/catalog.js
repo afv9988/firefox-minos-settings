@@ -111,34 +111,6 @@ var catalog =
             catalogList.removeItemAt(i);
          }
 
-         if(catalog.getLocale().match(/(de.*)/i))
-         {
-            for(var i = 0; i < catalog.catalogs.length; i++)
-            {
-               if(catalog.catalogs[i]['code'] == catalog.catalog_shop)
-               {
-                  var name = catalog.catalogs[i]['name'];
-                  var languageShort = catalog.catalogs[i]['language'];
-
-                  if(languageShort != "")
-                  {
-                     var languageLong = catalog.getProperty("lang." + languageShort);
-                     var desc = name + ", " + languageLong;
-                  }
-                  else
-                  {
-                     var desc = name;
-                  }
-
-                  catalogList.appendItem(desc, i);
-               }
-            }
-
-            var catalogListPopup = document.getElementById("catalog_menulist_popup");
-            var separator = document.createElement("menuseparator");
-            catalogListPopup.appendChild(separator);
-         }
-
          for(var i = 0; i < catalog.catalogs.length; i++)
          {
             if(catalog.catalogs[i]['code'] != catalog.catalog_shop)

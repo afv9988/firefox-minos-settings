@@ -22,6 +22,10 @@ addGlobalStyle('.one-half {width: 47%}');
 addGlobalStyle('img.avatar {max-width: 200px; max-height: 200px;}');
 
 //github.com
+addGlobalStyle('.one-third {width: 33%}');
 addGlobalStyle('.two-thirds {width: 63%}');
+addGlobalStyle('.input-block {width: 85%}');
+addGlobalStyle('.filter-bar .filter-input {width: 90%}');
+addGlobalStyle('.form-control, input[type="text"], input[type="password"], input[type="email"], input[type="number"], input[type="tel"], input[type="url"], textarea {min-height: 18px}');
 addGlobalStyle('.site-search input[type="text"] {width: 90%}');
 addGlobalStyle('.site-search.repo-scope input[type="text"] {padding-left: 5%}');

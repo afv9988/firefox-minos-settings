@@ -37,8 +37,6 @@
       <iframe id="nav_frame" type="content" src="" flex="1"/>
       <box id="toolbar_box" style="background-color:-moz-Dialog;">
          <toolbar style="padding-left:5px; margin-top:2px; margin-bottom:2px;" flex="1">
-            <toolbarbutton id="shop" image="chrome://epubreader/skin/basket_22.png" hidden="true" style="width:36px; height:33px; padding-top:6px; padding-left:4px;" tooltiptext="eBooks ohne DRM" oncommand="utils.openPage('shop');" />
-            <toolbarbutton id="donation" image="chrome://epubreader/skin/donation.png" hidden="true" style="width:32px; height:33px; padding-top:4px; padding-left:5px;" tooltiptext="Support EPUBReader by a donation!" oncommand="utils.openPage('donation');" />
             <toolbarbutton image="chrome://epubreader/skin/preferences.png" style="width:30px; height:33px; padding-top:4px; padding-left:5px;" tooltiptext="&reader.preferences;" oncommand="window.openDialog('chrome://epubreader/content/prefs/prefs.xul', 'prefs', 'chrome,resizable', document, window);" />
             <toolbarbutton image="chrome://epubreader/skin/faq.png" style="width:30px; height:33px; padding-top:4px; padding-left:7px;" tooltiptext="&reader.help;" oncommand="utils.openPage('faq');" />
          </toolbar>

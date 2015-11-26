@@ -40,6 +40,11 @@ table.epub td.header
    border-bottom-color:#306bc1;
 }
 
+#delete_all
+{
+   cursor:pointer;
+}
+
 table.meta
 {
    width:85%;

@@ -9,7 +9,7 @@ var epubOverlay =
 {
    init: function()
    {
-      var version = "1.5.0.4";
+      var version = "1.5.0.6";
 
       var pref = Cc["@mozilla.org/preferences-service;1"].getService(Ci.nsIPrefService).getBranch("extensions.epubreader.");
       var lastVersion = "";
@@ -33,10 +33,10 @@ var epubOverlay =
                pref.setCharPref("version", version);
 
                var browser = document.getElementById("content");
-               var tab = browser.addTab("chrome://epubreader/locale/welcome.html");
+               var tab = browser.addTab("http://www.epubread.com/welcome.php");
                browser.selectedTab = tab;
             },
-            1000
+            2000
          );
 
          epubOverlay.createBookmark();
@@ -55,7 +55,7 @@ var epubOverlay =
                var tab = browser.addTab("chrome://epubreader/locale/whatsnew.html");
                browser.selectedTab = tab;
             },
-            1000
+            2000
          );
 
          epubOverlay.updateBookmark();
