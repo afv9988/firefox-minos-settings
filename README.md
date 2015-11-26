@@ -10,10 +10,12 @@ Some of the modifications are:
 
  - Default homepage: https://minos.io/find
  - Default theme: [nasa](https://addons.mozilla.org/en-us/firefox/addon/nasa-night-launch/?src=cb-dl-users)
- - Default plugins: adblock plus, chmfox, epubreader, firebug, ghostery,
+ - Default plugins: ublock origin, chmfox, epubreader, firebug, ghostery,
    greasemonkey, lazarous, livehttp headers, noscript, pixlr grabber,
-   text link, resurrect pages, tab counter, tabsearch, useragent agent,
-   vimkeybindings, youtube mp3
+   text link, resurrect pages, tab counter, tabsearch, useragent switcher,
+   vimkeybindings, youtube mp3, youtube all html5, autoreload,
+   checkCompatibility, copyFrameAddress, Disable Ctrl-Q shortcut, Less Spam pls,
+    Stay-Open menu.
  - Minimal layout
 
 Other plugins/settings may be added in the future.
