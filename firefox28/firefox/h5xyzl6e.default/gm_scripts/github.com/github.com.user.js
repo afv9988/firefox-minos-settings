@@ -3,7 +3,8 @@
 // @namespace   github.com
 // @description fix github rendering with old firefox releases (27)
 // @version     0.1
-// @date        2015-02-11
+// @orig date   2015-02-11
+// @last update 2016-09-17
 // @grant       none
 // ==/UserScript==
 function addGlobalStyle(css) {
@@ -17,9 +18,11 @@ function addGlobalStyle(css) {
 }
 
 //github.com/user
-addGlobalStyle('.one-fourth {width: 20%}');
-addGlobalStyle('.one-half {width: 47%}');
-addGlobalStyle('img.avatar {max-width: 200px; max-height: 200px;}');
+//addGlobalStyle('.one-fourth {width: 20%}');
+//addGlobalStyle('.one-half {width: 47%}');
+//addGlobalStyle('img.avatar {max-width: 200px; max-height: 200px;}');
+addGlobalStyle('.col-3 {width: 22%}');
+addGlobalStyle('.pinned-repo-item {width: 340px}');
 
 //github.com
 addGlobalStyle('.one-third {width: 33%}');

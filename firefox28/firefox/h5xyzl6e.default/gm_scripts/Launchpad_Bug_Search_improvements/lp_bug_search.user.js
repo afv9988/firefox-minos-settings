@@ -4,7 +4,7 @@
 //
 // ==UserScript==
 // @name           Launchpad Bug Search improvements
-// @namespace      https://launchpad.net/~javier.collado
+// @namespace      https://launchpad.net/~muser.collado
 // @description    Launchpad Bug Search extra columns
 // @include        https://bugs.launchpad.net/*
 // @include        https://bugs.edge.launchpad.net/*

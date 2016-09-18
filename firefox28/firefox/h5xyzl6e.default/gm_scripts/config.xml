@@ -6,7 +6,7 @@
 		<Include>https://*.edge.launchpad.net/*</Include>
 		<Include>https://launchpad.net/*</Include>
 	</Script>
-	<Script basedir="Launchpad_Bug_Search_improvements-2" checkRemoteUpdates="1" dependhash="da39a3ee5e6b4b0d3255bfef95601890afd80709" description="Launchpad Bug Search extra columns" enabled="true" filename="lp_bug_search.user.js" installTime="1349929243739" modified="1459835504000" name="Launchpad Bug Search improvements" namespace="https://launchpad.net/~javier.collado" runAt="document-end" uuid="0fe7223d-e354-4a35-b633-e56fc0969548" version="null" installurl="http://bazaar.launchpad.net/~gm-dev-launchpad/launchpad-gm-scripts/master/download/head:/lp_bug_search.user.j-20100218100155-ljvmsba54ke06aj1-1/lp_bug_search.user.js" updateurl="http://bazaar.launchpad.net/~gm-dev-launchpad/launchpad-gm-scripts/master/download/head:/lp_bug_search.user.j-20100218100155-ljvmsba54ke06aj1-1/lp_bug_search.user.js">
+	<Script basedir="Launchpad_Bug_Search_improvements-2" checkRemoteUpdates="1" dependhash="da39a3ee5e6b4b0d3255bfef95601890afd80709" description="Launchpad Bug Search extra columns" enabled="true" filename="lp_bug_search.user.js" installTime="1349929243739" modified="1459835504000" name="Launchpad Bug Search improvements" namespace="https://launchpad.net/~muser.collado" runAt="document-end" uuid="0fe7223d-e354-4a35-b633-e56fc0969548" version="null" installurl="http://bazaar.launchpad.net/~gm-dev-launchpad/launchpad-gm-scripts/master/download/head:/lp_bug_search.user.j-20100218100155-ljvmsba54ke06aj1-1/lp_bug_search.user.js" updateurl="http://bazaar.launchpad.net/~gm-dev-launchpad/launchpad-gm-scripts/master/download/head:/lp_bug_search.user.j-20100218100155-ljvmsba54ke06aj1-1/lp_bug_search.user.js">
 		<Grant>GM_log</Grant>
 		<Include>https://bugs.launchpad.net/*</Include>
 		<Include>https://bugs.edge.launchpad.net/*</Include>
@@ -145,7 +145,7 @@
 		<Include>https://*.edge.launchpad.net/*</Include>
 		<Include>https://launchpad.net/*</Include>
 	</Script>
-	<Script basedir="github.com" checkRemoteUpdates="1" dependhash="da39a3ee5e6b4b0d3255bfef95601890afd80709" description="fix github rendering with old firefox releases (27)" enabled="true" filename="github.com.user.js" installTime="1423671084000" modified="1459835504000" name="github.com" namespace="github.com" runAt="document-end" uuid="f213d7ae-1ea5-4a09-94d3-b2540bb9bb47" version="0.1" installurl="file:///home/muser/.mozilla/firefox/h5xyzl6e.default/gm_scripts/github.com/github.com.user.js" updateurl="file:///home/muser/.mozilla/firefox/h5xyzl6e.default/gm_scripts/github.com/github.com.user.js">
+	<Script basedir="github.com" checkRemoteUpdates="1" dependhash="da39a3ee5e6b4b0d3255bfef95601890afd80709" description="fix github rendering with old firefox releases (27)" enabled="true" filename="github.com.user.js" installTime="1423671084000" modified="1474160058000" name="github.com" namespace="github.com" runAt="document-end" uuid="f213d7ae-1ea5-4a09-94d3-b2540bb9bb47" version="0.1" installurl="file:///home/muser/.mozilla/firefox/h5xyzl6e.default/gm_scripts/github.com/github.com.user.js" updateurl="file:///home/muser/.mozilla/firefox/h5xyzl6e.default/gm_scripts/github.com/github.com.user.js">
 		<Grant>none</Grant>
 		<Include>*</Include>
 	</Script>
